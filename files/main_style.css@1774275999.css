@@ -7,8 +7,8 @@
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; }
  #main-wrap .container {min-height:450px;}
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
- a { color: #f76d19; }
- a:hover { color: #cf4e00; }
+ a { color: #b14706; }
+ a:hover { color: #8f3600; }
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  div.paragraph { color:#777; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
@@ -70,12 +70,13 @@
  #navigation { line-height: 1; float: right; }
  #navigation ul { display: inline; list-style: none; float: right; max-width:700px; margin-bottom:-1px; }
  #navigation li { display: inline; position: relative; list-style: none; margin-left:6px; float: left; }
- #navigation ul li a { display: block; color: #333; text-decoration: none; padding: 18px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
+ #navigation ul li a { display: block; color: #333; text-decoration: none; padding: 18px 7px 8px; margin:0 0px 1px; border: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
+ #navigation ul li a:focus-visible { outline: 2px solid #b14706; outline-offset: -2px; }
  #navigation ul li#active a{ padding: 18px 7px 4px; border-bottom:4px solid #f76d19; color:#000; }
  #navigation ul li a:hover { padding: 18px 7px 4px; border-bottom:4px solid #f76d19; color: #666; }
  #wsite-menus .wsite-menu { background:#fff; position:relative; }
  #wsite-menus .wsite-menu li a { background: #F4F4F4; border:none; border-bottom: 1px solid #E8E8E8; border-top: 1px solid white; display: block; }
- #wsite-menus .wsite-menu li a:hover { color: #f76d19; background: #eee; }
+ #wsite-menus .wsite-menu li a:hover { color: #b14706; background: #eee; }
  #banner { padding-bottom:40px; }
  #banner-image-wrap { position:relative }
  .tall-header-page #banner-image-wrap { width: 100%; height: 400px; }
@@ -148,4 +149,39 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
     display: block !important;
     width: 100% !important;
   }
+}
+
+/* Accessibility: visually hide content while keeping it available to screen
+   readers (standard "sr-only" pattern). Used for page-title <h1>s this theme
+   never had, so real heading structure exists without changing the visual
+   design. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Accessibility: skip-navigation link. Hidden until keyboard-focused, so
+   keyboard and screen-reader users can jump past the repeated nav menu on
+   every page instead of tabbing through it every time. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #b14706;
+  padding: 10px 16px;
+  z-index: 1000;
+  border: 2px solid #b14706;
+  font: 13px 'Open Sans', arial, sans-serif;
+}
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
 }
