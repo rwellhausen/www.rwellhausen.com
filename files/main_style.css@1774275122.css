@@ -3,7 +3,7 @@
  a img { border: 0; }
  a { text-decoration: none; }
  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: #fff; color: #555; line-height:24px; }
- .container { margin: 0 auto; width: 960px; }
+ .container { margin: 0 auto; width: 100%; max-width: 960px; }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; }
  #main-wrap .container {min-height:450px;}
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
@@ -13,7 +13,7 @@
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  div.paragraph { color:#777; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  p { color:#777; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
- #nav-wrap .container, #nav-wrap .container table { border-collapse: collapse; border-spacing: 0; width:960px; }
+ #nav-wrap .container, #nav-wrap .container table { border-collapse: collapse; border-spacing: 0; width:100%; max-width:960px; }
  #wsite-title { font-family: 'Open Sans', sans-serif; font-size:20px; color:#555; line-height:38px; float:left; padding-left:10px; }
  #wsite-title:hover { color:#cf4e00; }
  #header { border-collapse: collapse; border-spacing: 0; text-align:right; height:20px; width:100%; }
@@ -138,3 +138,14 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 /* Site migrated off Weebly: hide the Weebly footer badge */
 #weebly-footer-signup-container-v3{display:none !important;}
+
+/* Mobile responsiveness: this theme predates responsive design (fixed 960px
+   layout, no breakpoints). Stack the two-column tables (homepage photo+bio,
+   teaching/advising layout) vertically on narrow screens instead of forcing
+   the fixed-width columns to squeeze together. */
+@media screen and (max-width: 660px) {
+  .wsite-multicol-table, .wsite-multicol-tbody, .wsite-multicol-tr, .wsite-multicol-col {
+    display: block !important;
+    width: 100% !important;
+  }
+}
