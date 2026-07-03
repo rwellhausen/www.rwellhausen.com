@@ -141,13 +141,99 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #weebly-footer-signup-container-v3{display:none !important;}
 
 /* Mobile responsiveness: this theme predates responsive design (fixed 960px
-   layout, no breakpoints). Stack the two-column tables (homepage photo+bio,
-   teaching/advising layout) vertically on narrow screens instead of forcing
-   the fixed-width columns to squeeze together. */
+   layout, no breakpoints). The rules below only take effect on narrow screens
+   and leave the desktop layout untouched. */
 @media screen and (max-width: 660px) {
+  /* Stack the two-column tables (homepage photo+bio, teaching/advising layout)
+     vertically instead of squeezing fixed-width columns together. */
   .wsite-multicol-table, .wsite-multicol-tbody, .wsite-multicol-tr, .wsite-multicol-col {
     display: block !important;
     width: 100% !important;
+  }
+
+  /* Give every section breathing room from the screen edges. Without this the
+     body text and headings run flush against both sides of the phone. */
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
+  }
+
+  /* Navigation. The theme lays the header out as a single table row: the site
+     title floats left, the menu floats right. On a narrow screen the two
+     collide and the menu items overlap the name. Break the row into a stack:
+     the title centered on its own line, then the menu as a centered, wrapping
+     row of comfortably-sized tap targets. */
+  #nav-wrap .container table,
+  #nav-wrap .container tbody,
+  #nav-wrap .container tr,
+  #nav-wrap .container td#logo,
+  #nav-wrap .container td#nav {
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    text-align: center !important;
+  }
+  #wsite-title {
+    float: none !important;
+    display: block;
+    text-align: center;
+    padding: 12px 0 4px;
+    line-height: 1.3;
+  }
+  #navigation {
+    float: none !important;
+    line-height: 1.4;
+  }
+  #navigation ul {
+    float: none !important;
+    max-width: none !important;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  #navigation li {
+    float: none !important;
+    display: inline-block;
+    margin: 0;
+  }
+  #navigation ul li a,
+  #navigation ul li a:hover {
+    float: none !important;
+    display: inline-block;
+    padding: 10px 10px;
+    border-bottom: none;
+  }
+  #navigation ul li#active a {
+    float: none !important;
+    display: inline-block;
+    padding: 10px 10px 7px;
+    border-bottom: 3px solid #f76d19;
+  }
+  #nav-wrap .container {
+    margin-bottom: 24px;
+  }
+
+  /* Justified body text creates ugly word-spacing "rivers" in a narrow column;
+     left-align it, and break long links/words instead of overflowing. */
+  #wsite-content .paragraph,
+  #wsite-content p {
+    text-align: left !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Deeply nested lists (up to three levels on the teaching page) indent enough
+     to push content off-screen; tighten the indent on small screens. */
+  #main-wrap div.paragraph ul,
+  #main-wrap div.paragraph ol {
+    padding-left: 1.5em !important;
+  }
+
+  /* Keep any inline image from forcing horizontal scroll. */
+  #wsite-content img {
+    max-width: 100% !important;
+    height: auto;
   }
 }
 
