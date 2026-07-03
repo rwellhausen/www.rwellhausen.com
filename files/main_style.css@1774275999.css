@@ -235,6 +235,29 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
     max-width: 100% !important;
     height: auto;
   }
+
+  /* Body text is 13px in this theme, which is uncomfortably small to read on a
+     phone (16px is the accepted mobile minimum). Most of the page copy is also
+     wrapped in legacy <font size="2"> (13px) and <font size="1"> tags, so bump
+     those too or the CSS increase would have no effect on the actual text. */
+  #wsite-content .paragraph,
+  #wsite-content p,
+  #wsite-content li,
+  #wsite-content font[size="2"] {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+  #wsite-content font[size="1"] {
+    font-size: 15px !important;
+  }
+  #wsite-content font[size="3"] {
+    font-size: 18px !important;
+  }
+  /* Slightly larger nav labels for easier tapping/reading. */
+  #navigation ul li a,
+  #navigation ul li#active a {
+    font-size: 15px;
+  }
 }
 
 /* Accessibility: visually hide content while keeping it available to screen
