@@ -11,21 +11,21 @@ rendered at working size; character PNGs have transparent backgrounds.
 Each element blob has three forms — baby → middle → final — and all three
 share the element's color.
 
-| Element | Baby (stage 1) | Middle (stage 2) | Final form |
+| Element | Baby | Middle | Final form |
 |---------|----------------|------------------|------------|
-| Earth | `earth-blob-stage1` (brown circle) | `earth-blob-stage2` (brick) | `earth-blob` (brick pyramid) |
-| Wind | `wind-blob-stage1` (blue circle) | `wind-blob-stage2` (small funnel) | `wind-blob` (cloud tornado) |
-| Water | `water-blob-stage1` (droplet circle) | `water-blob-stage2` (big sloshy blob) | `water-blob` (curling wave) |
-| Fire | `fire-blob-stage1` (ember circle) | `fire-blob-stage2` (flame) | `fire-blob` (erupting volcano) |
-| Dark | `dark-blob-stage1` (shadow circle) | `dark-blob-stage2` (dark star) | `dark-blob` (crescent moon) |
+| Earth | `earth-blob-baby` (brown circle) | `earth-blob-middle` (brick) | `earth-blob-final` (brick pyramid) |
+| Wind | `wind-blob-baby` (blue circle) | `wind-blob-middle` (small funnel) | `wind-blob-final` (cloud tornado) |
+| Water | `water-blob-baby` (droplet circle) | `water-blob-middle` (big sloshy blob) | `water-blob-final` (curling wave) |
+| Fire | `fire-blob-baby` (ember circle) | `fire-blob-middle` (flame) | `fire-blob-final` (erupting volcano) |
+| Dark | `dark-blob-baby` (shadow circle) | `dark-blob-middle` (dark star) | `dark-blob-final` (crescent moon) |
 
 Two more evolving lines (going backward through the forms is called
 "devolving"):
 
-| Line | Baby (stage 1) | Middle (stage 2) | Final form |
+| Line | Baby | Middle | Final form |
 |------|----------------|------------------|------------|
-| Gold | `gold-blob-stage1` (round gold blob) | `gold-blob-stage2` (gold bar) | `gold-blob` (crowned Gold King, stack of ingots) |
-| Cloth | `cloth-blob-stage1` (Pattern Blob — round blob covered in patterns) | `cloth-blob-stage2` (dish cloth) | not invented yet |
+| Gold | `gold-blob-baby` (round gold blob) | `gold-blob-middle` (gold bar) | `gold-blob-final` (crowned Gold King — lower bars strain to hold him up) |
+| Cloth | `cloth-blob-baby` (Pattern Blob — round blob covered in patterns) | `cloth-blob-middle` (dish cloth) | not invented yet |
 
 ## Other blobs in the universe
 

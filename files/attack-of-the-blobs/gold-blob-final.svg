@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- bottom ingot: straining hard -->
+  <g transform="translate(260,485)">
+    <path d="M -155 -50 L 155 -50 L 185 50 L -185 50 Z" fill="#ffd166" class="outline thick"/>
+    <!-- strained brows -->
+    <path d="M -62 -28 l 26 12 M 62 -28 l -26 12" fill="none" class="outline mid"/>
+    <!-- squeezed-shut eyes -->
+    <path d="M -48 -2 q 12 10 24 0 M 24 -2 q 12 10 24 0" fill="none" class="outline mid"/>
+    <!-- gritted mouth -->
+    <path d="M -30 28 l 60 0 M -15 18 l 0 20 M 0 18 l 0 20 M 15 18 l 0 20" fill="none" class="outline mid"/>
+    <!-- sweat drops -->
+    <path d="M -125 -15 q -9 14 0 21 q 10 -7 0 -21 Z" fill="#8ecae6" class="outline thin"/>
+    <path d="M 130 -10 q -9 14 0 21 q 10 -7 0 -21 Z" fill="#8ecae6" class="outline thin"/>
+  </g>
+
+  <!-- middle ingot: also straining -->
+  <g transform="translate(260,385)">
+    <path d="M -125 -50 L 125 -50 L 150 50 L -150 50 Z" fill="#ffd166" class="outline thick"/>
+    <path d="M -125 -50 L 125 -50 L 112 -78 L -112 -78 Z" fill="#ffe29a" class="outline mid"/>
+    <!-- strained brows -->
+    <path d="M -55 -32 l 24 12 M 55 -32 l -24 12" fill="none" class="outline mid"/>
+    <!-- dot eyes pressed with effort -->
+    <circle cx="-33" cy="-8" r="11" fill="#2b2340"/>
+    <circle cx="33" cy="-8" r="11" fill="#2b2340"/>
+    <!-- wobbly effort mouth -->
+    <path d="M -28 26 q 14 12 28 0 q 14 -12 28 0" fill="none" class="outline mid"/>
+    <!-- sweat drop -->
+    <path d="M 100 -30 q -9 14 0 21 q 10 -7 0 -21 Z" fill="#8ecae6" class="outline thin"/>
+  </g>
+
+  <!-- top ingot: the proud king -->
+  <g transform="translate(260,255)">
+    <path d="M -100 -50 L 100 -50 L 122 52 L -122 52 Z" fill="#ffd166" class="outline thick"/>
+    <path d="M -100 -50 L 100 -50 L 88 -78 L -88 -78 Z" fill="#ffe29a" class="outline mid"/>
+    <circle cx="-35" cy="-5" r="13" fill="#2b2340"/>
+    <circle cx="35" cy="-5" r="13" fill="#2b2340"/>
+    <!-- big proud grin -->
+    <path d="M -24 22 q 24 22 48 0" fill="none" class="outline mid"/>
+    <!-- crown -->
+    <path d="M -68 -78 L -68 -150 L -34 -112 L 0 -162 L 34 -112 L 68 -150 L 68 -78 Z" fill="#ffe29a" class="outline thick"/>
+    <circle cx="0" cy="-170" r="9" fill="#e63946" class="outline thin"/>
+  </g>
+
+  <!-- royal sparkles + wobble lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 90 130 l 0 -28 M 90 116 l -14 0 l 28 0"/>
+    <path d="M 435 170 l 0 -24 M 435 158 l -12 0 l 24 0"/>
+    <path d="M 55 400 q -12 8 -16 22 M 52 448 q -10 8 -12 20"/>
+    <path d="M 465 400 q 12 8 16 22 M 468 448 q 10 8 12 20"/>
+  </g>
+</svg>
