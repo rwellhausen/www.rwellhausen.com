@@ -6,25 +6,29 @@
       .mid { stroke-width:7; }
       .thin { stroke-width:5; }
     </style>
-    <clipPath id="rocketClip"><rect x="185" y="200" width="150" height="260" rx="18"/></clipPath>
+    <clipPath id="bodyClip"><path d="M 185 210 L 335 210 L 335 442 Q 335 462 315 462 L 205 462 Q 185 462 185 442 Z"/></clipPath>
   </defs>
 
-  <!-- nose cone: one triangle, pointing up -->
-  <path d="M 260 70 L 350 210 L 170 210 Z" fill="#3fb8af" class="outline thick"/>
+  <!-- one-piece rocket silhouette: cone flows straight into the body -->
+  <path d="M 260 65 L 335 210 L 335 442 Q 335 462 315 462 L 205 462 Q 185 462 185 442 L 185 210 Z" fill="#ffd166" class="outline thick"/>
 
-  <!-- rocket body: gold with teal diagonal stripes -->
-  <rect x="185" y="200" width="150" height="260" rx="18" fill="#ffd166" class="outline thick"/>
-  <g clip-path="url(#rocketClip)" stroke="#3fb8af" stroke-width="22" fill="none">
+  <!-- teal diagonal stripes on the body -->
+  <g clip-path="url(#bodyClip)" stroke="#3fb8af" stroke-width="22" fill="none">
     <path d="M 160 265 L 360 205 M 160 335 L 360 275 M 160 405 L 360 345 M 160 475 L 360 415"/>
   </g>
-  <rect x="185" y="200" width="150" height="260" rx="18" fill="none" class="outline thick"/>
+
+  <!-- teal nose cone, sharing the same edges as the body -->
+  <path d="M 260 65 L 335 210 L 185 210 Z" fill="#3fb8af" class="outline thick"/>
+
+  <!-- re-stroke the silhouette so it reads as one piece -->
+  <path d="M 260 65 L 335 210 L 335 442 Q 335 462 315 462 L 205 462 Q 185 462 185 442 L 185 210 Z" fill="none" class="outline thick"/>
 
   <!-- dot eyes on the body -->
-  <circle cx="230" cy="390" r="13" fill="#2b2340"/>
-  <circle cx="290" cy="390" r="13" fill="#2b2340"/>
+  <circle cx="230" cy="385" r="13" fill="#2b2340"/>
+  <circle cx="290" cy="385" r="13" fill="#2b2340"/>
 
   <!-- fuse at the bottom, lit and sparking -->
-  <path d="M 260 462 q 10 45 60 55" fill="none" stroke="#6b6b7a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 260 464 q 10 45 60 55" fill="none" stroke="#6b6b7a" stroke-width="12" stroke-linecap="round"/>
   <g stroke="#f4913b" stroke-width="7" stroke-linecap="round" fill="none">
     <path d="M 340 525 l 24 8 M 332 540 l 16 20 M 342 508 l 22 -12 M 318 542 l 2 26"/>
   </g>

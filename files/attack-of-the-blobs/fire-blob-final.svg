@@ -8,15 +8,21 @@
     </style>
   </defs>
 
-  <!-- lava eruption cloud -->
-  <path d="M 150 175 q -30 -35 5 -60 q -10 -40 32 -45 q 5 -35 45 -28 q 20 -30 52 -12 q 35 -20 52 12 q 40 -5 38 35 q 35 15 15 50 q 20 35 -18 48 q -8 25 -38 18 l -160 0 q -28 -2 -23 -18 Z" fill="#e63946" class="outline thick"/>
-  <path d="M 205 105 q 25 -18 50 0 M 300 130 q 18 12 14 32" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+  <!-- flying lava bombs -->
+  <path d="M 118 105 q -14 22 2 34 q 18 -8 10 -30 q -4 -10 -12 -4 Z" fill="#e63946" class="outline thin"/>
+  <path d="M 395 75 q -14 22 2 34 q 18 -8 10 -30 q -4 -10 -12 -4 Z" fill="#e63946" class="outline thin"/>
+  <path d="M 300 35 q -10 16 2 26 q 14 -6 8 -22 q -3 -8 -10 -4 Z" fill="#f4913b" class="outline thin"/>
 
-  <!-- lava drips -->
-  <path d="M 190 190 q -8 30 6 44 q 12 12 4 26 M 330 190 q 10 28 -2 46" fill="none" stroke="#e63946" stroke-width="14" stroke-linecap="round"/>
+  <!-- scary jagged lava eruption -->
+  <path d="M 185 180 L 128 80 L 196 112 L 212 25 L 250 105 L 288 20 L 306 108 L 372 55 L 350 125 L 408 118 L 335 180 Z" fill="#e63946" class="outline thick"/>
+  <!-- inner hot flame -->
+  <path d="M 216 176 L 200 110 L 244 140 L 262 70 L 286 138 L 320 112 L 304 176 Z" fill="#ffb703" class="outline mid"/>
 
   <!-- mountain -->
   <path d="M 195 165 L 325 165 L 455 540 L 65 540 Z" fill="#a97c50" class="outline thick"/>
+
+  <!-- lava spilling down both slopes -->
+  <path d="M 196 172 q -14 40 4 62 q 14 18 2 40 M 326 172 q 16 38 2 64 q -10 20 4 38" fill="none" stroke="#e63946" stroke-width="16" stroke-linecap="round"/>
   <!-- crater rim -->
   <path d="M 195 165 q 65 22 130 0" fill="none" class="outline mid"/>
   <!-- rocky speckles -->
@@ -33,5 +39,6 @@
   <g fill="none" class="outline thin">
     <path d="M 55 250 q 16 -12 38 -10"/>
     <path d="M 470 300 q -14 14 -34 16"/>
+    <path d="M 85 560 q 16 -8 36 -6 M 400 560 q 16 -8 36 -6"/>
   </g>
 </svg>
