@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <clipPath id="ballClip"><circle cx="260" cy="300" r="165"/></clipPath>
+  </defs>
+
+  <!-- round copper ball -->
+  <circle cx="260" cy="300" r="170" fill="#c1703d" class="outline thick"/>
+
+  <!-- oxidized (verdigris) patches -->
+  <g clip-path="url(#ballClip)">
+    <path d="M 130 220 q 25 -35 70 -25 q 40 8 38 42 q -3 30 -45 28 q -40 -2 -55 -20 q -12 -14 -8 -25 Z" fill="#4fae9b" class="outline mid"/>
+    <path d="M 290 370 q 30 -22 68 -8 q 32 12 20 42 q -12 26 -50 20 q -36 -6 -44 -28 q -5 -16 6 -26 Z" fill="#4fae9b" class="outline mid"/>
+    <path d="M 150 390 q 18 -10 36 0 q 14 10 6 28 q -10 18 -32 12 q -22 -6 -20 -24 q 2 -12 10 -16 Z" fill="#6fc4de" class="outline mid"/>
+    <path d="M 300 160 q 20 -12 40 -2 q 16 10 8 28 q -10 18 -34 12 q -22 -6 -22 -22 q 0 -10 8 -16 Z" fill="#6fc4de" class="outline mid"/>
+  </g>
+
+  <!-- metallic speckles -->
+  <g fill="#d98d5f" stroke="none">
+    <circle cx="215" cy="320" r="7"/><circle cx="330" cy="280" r="8"/><circle cx="260" cy="420" r="7"/>
+  </g>
+
+  <!-- shine -->
+  <path d="M 165 195 q 30 -32 72 -36" fill="none" stroke="#e8a877" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- dot eyes -->
+  <circle cx="228" cy="280" r="13" fill="#2b2340"/>
+  <circle cx="294" cy="280" r="13" fill="#2b2340"/>
+
+  <!-- glint ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 95 150 l 0 -26 M 95 137 l -13 0 l 26 0"/>
+    <path d="M 445 420 q 12 10 14 26"/>
+  </g>
+</svg>
