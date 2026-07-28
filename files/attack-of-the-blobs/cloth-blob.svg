@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <clipPath id="clothClip">
+      <path d="M 95 145 Q 260 115 425 145 L 418 430 Q 378 458 330 442 Q 298 468 258 450 Q 218 470 180 448 Q 138 466 100 444 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- cloth body with wavy hem -->
+  <path d="M 95 145 Q 260 115 425 145 L 418 430 Q 378 458 330 442 Q 298 468 258 450 Q 218 470 180 448 Q 138 466 100 444 Z" fill="#e63946" class="outline thick"/>
+
+  <g clip-path="url(#clothClip)">
+    <!-- dark hem band at the bottom (like the sketch) -->
+    <path d="M 80 395 L 440 395 L 440 480 L 80 480 Z" fill="#7e1f2e"/>
+    <path d="M 80 395 L 440 395" fill="none" class="outline mid"/>
+    <!-- fabric folds -->
+    <path d="M 190 150 q -10 90 6 200 M 260 145 q 8 95 -4 210 M 330 150 q -8 90 6 200" fill="none" stroke="#c1273a" stroke-width="9" stroke-linecap="round"/>
+    <!-- soft shine -->
+    <path d="M 130 185 q 45 -22 100 -18" fill="none" stroke="#ff7b86" stroke-width="11" stroke-linecap="round"/>
+  </g>
+
+  <!-- stitched top hem -->
+  <path d="M 115 168 l 24 -3 M 165 162 l 24 -2 M 215 158 l 24 -1 M 265 157 l 24 1 M 315 159 l 24 2 M 365 163 l 24 3" fill="none" stroke="#fff6e0" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- dot eyes -->
+  <circle cx="225" cy="265" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="265" r="13" fill="#2b2340"/>
+
+  <!-- little flutter lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 455 220 q 14 10 16 28"/>
+    <path d="M 60 300 q -12 10 -14 26"/>
+    <path d="M 448 500 q 14 -4 22 -16"/>
+  </g>
+</svg>

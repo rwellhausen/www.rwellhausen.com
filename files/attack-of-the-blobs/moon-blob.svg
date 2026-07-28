@@ -8,22 +8,22 @@
     </style>
   </defs>
 
-  <!-- crescent moon, opening to the right like the sketch -->
-  <path d="M 330 75 A 235 235 0 1 0 330 525 A 185 185 0 1 1 330 75 Z" fill="#9b7ede" class="outline thick"/>
+  <!-- fat crescent moon, opening to the right -->
+  <path d="M 320 70 A 235 235 0 1 0 320 530 A 260 260 0 0 1 320 70 Z" fill="#9b7ede" class="outline thick"/>
 
   <!-- craters -->
   <g fill="#b9a1ea" class="outline mid">
-    <circle cx="150" cy="200" r="22"/>
-    <circle cx="115" cy="405" r="16"/>
-    <circle cx="170" cy="440" r="19"/>
+    <circle cx="140" cy="145" r="20"/>
+    <circle cx="75" cy="370" r="13"/>
+    <circle cx="132" cy="442" r="18"/>
   </g>
 
-  <!-- shine -->
-  <path d="M 205 105 q -40 14 -66 48" fill="none" stroke="#d6c6f5" stroke-width="12" stroke-linecap="round"/>
+  <!-- shine along the top edge -->
+  <path d="M 195 98 q -55 16 -95 58" fill="none" stroke="#d6c6f5" stroke-width="12" stroke-linecap="round"/>
 
-  <!-- dot eyes -->
-  <circle cx="86" cy="250" r="13" fill="#2b2340"/>
-  <circle cx="97" cy="318" r="13" fill="#2b2340"/>
+  <!-- dot eyes, side by side on the wide part of the crescent -->
+  <circle cx="88" cy="262" r="13" fill="#2b2340"/>
+  <circle cx="152" cy="272" r="13" fill="#2b2340"/>
 
   <!-- stars -->
   <g fill="none" class="outline thin">

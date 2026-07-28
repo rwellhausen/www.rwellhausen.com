@@ -8,8 +8,17 @@ William's original pencil/crayon sketches (kept in `sketches/`).
 | File | What it is |
 |------|------------|
 | `cartoon-icons.svg` / `.png` | 2×2 sheet of game menu icons: red book, Shop sign, Earth (with dot eyes), crossed swords |
-| `wind-blob.svg` / `.png` | Wind Blob character — blue triangular tornado with clouds inside, dot eyes |
-| `brick-blob.svg` / `.png` | Brick Blob character — stepped pyramid of brown bricks, dot eyes |
+| `wind-blob.svg` / `.png` | Wind Blob — blue triangular tornado with clouds inside |
+| `earth-blob.svg` / `.png` | Earth Blob — stepped pyramid of brown blocks |
+| `volcano-blob.svg` / `.png` | Volcano Blob — erupting mountain |
+| `firework-blob.svg` / `.png` | Firework Blob — sparkler burst (revision pending: new sketch coming) |
+| `gem-blob.svg` / `.png` | Gem Blob — blue faceted crystal (approved, do not change) |
+| `gold-blob.svg` / `.png` | Gold Blob — tilted gold bar (approved, do not change) |
+| `cloth-blob.svg` / `.png` | Cloth Blob — red dish cloth with dark hem |
+| `wave-blob.svg` / `.png` | Wave Blob — curling wave with foam |
+| `moss-blob.svg` / `.png` | Moss Blob — mossy boulder with a sprout |
+| `moon-blob.svg` / `.png` | Moon Blob — fat purple crescent, face on the wide part |
+| `heart-blobs.svg` / `.png` | Heart Blobs — touching trio with emotions: happy, mad, sad |
 
 SVGs are the editable masters (each icon/character is a named group; colors are
 plain hex fills). PNGs are rendered at working size; character PNGs have
@@ -20,3 +29,4 @@ transparent backgrounds.
 - Thick dark outlines (`#2b2340`), rounded joins
 - Bright flat fills, minimal shading (one shine stripe max)
 - Blobs get two dot eyes only — no mouths, no cheeks
+  - Exception: Heart Blobs have full faces with emotions (happy, mad, sad)
