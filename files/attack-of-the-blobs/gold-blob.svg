@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <g transform="translate(260,300) rotate(-30)">
+    <!-- ingot body (trapezoid brick) -->
+    <path d="M -170 -75 L 170 -75 L 205 75 L -205 75 Z" fill="#ffd166" class="outline thick"/>
+    <!-- top face -->
+    <path d="M -170 -75 L 170 -75 L 150 -120 L -150 -120 Z" fill="#ffe29a" class="outline mid"/>
+    <!-- shine -->
+    <path d="M -120 -20 q 60 -18 130 -10" fill="none" stroke="#fff6e0" stroke-width="12" stroke-linecap="round"/>
+    <!-- stamp -->
+    <path d="M -55 25 l 110 0" fill="none" class="outline thin"/>
+
+    <!-- dot eyes -->
+    <circle cx="-40" cy="-25" r="13" fill="#2b2340"/>
+    <circle cx="40" cy="-25" r="13" fill="#2b2340"/>
+  </g>
+
+  <!-- sparkle ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 95 115 l 0 -28 M 95 101 l -14 0 l 28 0"/>
+    <path d="M 430 460 l 0 -24 M 430 448 l -12 0 l 24 0"/>
+    <path d="M 440 150 q -14 12 -32 14"/>
+    <path d="M 70 440 q 14 10 32 10"/>
+  </g>
+</svg>

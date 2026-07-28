@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- lava eruption cloud -->
+  <path d="M 150 175 q -30 -35 5 -60 q -10 -40 32 -45 q 5 -35 45 -28 q 20 -30 52 -12 q 35 -20 52 12 q 40 -5 38 35 q 35 15 15 50 q 20 35 -18 48 q -8 25 -38 18 l -160 0 q -28 -2 -23 -18 Z" fill="#e63946" class="outline thick"/>
+  <path d="M 205 105 q 25 -18 50 0 M 300 130 q 18 12 14 32" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- lava drips -->
+  <path d="M 190 190 q -8 30 6 44 q 12 12 4 26 M 330 190 q 10 28 -2 46" fill="none" stroke="#e63946" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- mountain -->
+  <path d="M 195 165 L 325 165 L 455 540 L 65 540 Z" fill="#a97c50" class="outline thick"/>
+  <!-- crater rim -->
+  <path d="M 195 165 q 65 22 130 0" fill="none" class="outline mid"/>
+  <!-- rocky speckles -->
+  <g fill="#c8a06e" stroke="none">
+    <circle cx="200" cy="300" r="8"/><circle cx="330" cy="340" r="7"/><circle cx="150" cy="440" r="8"/>
+    <circle cx="280" cy="470" r="7"/><circle cx="380" cy="480" r="8"/><circle cx="245" cy="245" r="6"/>
+  </g>
+
+  <!-- dot eyes -->
+  <circle cx="225" cy="330" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="330" r="13" fill="#2b2340"/>
+
+  <!-- rumble lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 55 250 q 16 -12 38 -10"/>
+    <path d="M 470 300 q -14 14 -34 16"/>
+  </g>
+</svg>

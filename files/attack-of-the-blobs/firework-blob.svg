@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- striped sparkler stick -->
+  <g transform="translate(272,268) rotate(50)">
+    <rect x="0" y="-14" width="200" height="28" rx="12" fill="#3fb8af" class="outline mid"/>
+    <path d="M 40 -14 l 0 28 M 80 -14 l 0 28 M 120 -14 l 0 28 M 160 -14 l 0 28" stroke="#ffb703" stroke-width="18"/>
+    <rect x="0" y="-14" width="200" height="28" rx="12" fill="none" class="outline mid"/>
+  </g>
+
+  <!-- outer ray burst -->
+  <g fill="none" class="outline thin">
+    <path d="M 215 55 l -6 -38 M 275 58 l 10 -38 M 330 85 l 24 -30 M 370 130 l 34 -20 M 390 190 l 40 -8 M 385 250 l 38 10 M 90 120 l -30 -24 M 62 180 l -38 -10 M 58 240 l -38 8 M 78 300 l -32 20 M 120 345 l -22 30 M 300 330 l 22 30"/>
+  </g>
+
+  <!-- burst petals -->
+  <g fill="#ffd166" class="outline mid">
+    <path d="M 225 200 L 205 75 L 255 130 Z"/>
+    <path d="M 235 195 L 320 95 L 320 175 Z"/>
+    <path d="M 245 210 L 380 165 L 330 235 Z"/>
+    <path d="M 240 225 L 365 290 L 290 300 Z"/>
+    <path d="M 220 230 L 245 355 L 180 305 Z"/>
+    <path d="M 205 220 L 85 290 L 110 215 Z"/>
+    <path d="M 205 205 L 70 165 L 130 130 Z"/>
+    <path d="M 215 195 L 130 75 L 195 100 Z"/>
+  </g>
+
+  <!-- glow core -->
+  <circle cx="222" cy="205" r="78" fill="#8ecae6" class="outline thick"/>
+  <circle cx="222" cy="205" r="48" fill="#fff6e0" class="outline mid"/>
+
+  <!-- dot eyes -->
+  <circle cx="204" cy="200" r="11" fill="#2b2340"/>
+  <circle cx="244" cy="200" r="11" fill="#2b2340"/>
+
+  <!-- sparkle ticks -->
+  <path d="M 430 90 l 0 -26 M 430 77 l -13 0 l 26 0 M 80 420 l 0 -22 M 80 409 l -11 0 l 22 0" fill="none" class="outline thin"/>
+</svg>
