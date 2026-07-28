@@ -25,7 +25,7 @@ inventing the missing forms.
 | Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
 | Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
 | Heart | round pink blob | single pink heart | touching trio with emotions: happy, mad, sad |
-| Light | round yellow blob | beam of light | dark lamp shining three beams |
+| Light | round yellow blob | beam of light | white fluffy cloud shining three beams |
 | Water | droplet circle | big sloshy blob | curling wave |
 | Wind | blue circle | small funnel | cloud tornado |
 

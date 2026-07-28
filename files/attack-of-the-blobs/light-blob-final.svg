@@ -15,14 +15,13 @@
   <!-- inner glow stripes -->
   <path d="M 228 230 L 175 470 M 261 235 L 261 485 M 294 230 L 348 470" fill="none" stroke="#fff6b0" stroke-width="12" stroke-linecap="round"/>
 
-  <!-- dark fuzzy lamp blob on top -->
-  <path d="M 260 90 q 55 -4 76 40 q 18 38 -8 68 q -26 30 -68 30 q -42 0 -68 -30 q -26 -30 -8 -68 q 21 -44 76 -40 Z" fill="#3d3d4a" class="outline thick"/>
-  <!-- fuzzy scribble edge -->
-  <path d="M 190 110 q -14 6 -20 20 M 330 110 q 14 6 20 20 M 205 205 q -10 12 -6 24 M 315 205 q 10 12 6 24" fill="none" stroke="#3d3d4a" stroke-width="12" stroke-linecap="round"/>
+  <!-- white fluffy cloud on top -->
+  <path d="M 150 210 q -40 -8 -36 -44 q 4 -34 40 -36 q 2 -36 40 -42 q 30 -5 48 16 q 14 -26 48 -22 q 34 4 40 34 q 36 -2 46 30 q 10 34 -22 50 q 12 26 -18 34 q -22 6 -38 -4 l -110 0 q -24 8 -38 -16 Z" fill="#ffffff" class="outline thick"/>
+  <path d="M 165 105 q 16 -16 40 -16" fill="none" stroke="#dfe8f2" stroke-width="10" stroke-linecap="round"/>
 
-  <!-- pale dot eyes on the lamp -->
-  <circle cx="228" cy="160" r="13" fill="#fff6e0"/>
-  <circle cx="292" cy="160" r="13" fill="#fff6e0"/>
+  <!-- dot eyes on the cloud -->
+  <circle cx="228" cy="150" r="13" fill="#2b2340"/>
+  <circle cx="292" cy="150" r="13" fill="#2b2340"/>
 
   <!-- sparkle ticks -->
   <g fill="none" class="outline thin">
