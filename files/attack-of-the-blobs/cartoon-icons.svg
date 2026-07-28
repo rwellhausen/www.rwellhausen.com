@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1200" height="1200" rx="0" fill="#f7f1e3"/>
+
+  <!-- ============ CARD 1 : BOOK (top-left) ============ -->
+  <g transform="translate(75,75)">
+    <rect x="0" y="0" width="480" height="480" rx="60" fill="#ffd166" class="outline thick"/>
+    <g transform="translate(240,250) rotate(-18)">
+      <!-- page block (side) -->
+      <path d="M -130 -150 L 150 -150 L 175 -120 L 175 160 L -105 160 L -130 130 Z" fill="#fff6e0" class="outline thick"/>
+      <!-- page lines -->
+      <path d="M 155 -145 L 172 -124 M 160 -110 L 172 -98 M 160 -70 L 172 -58 M 160 -30 L 172 -18 M 160 10 L 172 22 M 160 50 L 172 62 M 160 90 L 172 102 M 160 128 L 170 140" fill="none" class="outline thin"/>
+      <!-- front cover -->
+      <rect x="-130" y="-150" width="285" height="285" rx="14" fill="#e63946" class="outline thick"/>
+      <!-- spine highlight -->
+      <rect x="-130" y="-150" width="52" height="285" rx="14" fill="#c1273a" class="outline mid"/>
+      <!-- subtle cover shine -->
+      <path d="M -95 -115 q 40 -22 90 -18" fill="none" stroke="#ff7b86" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ============ CARD 2 : SHOP SIGN (top-right) ============ -->
+  <g transform="translate(645,75)">
+    <rect x="0" y="0" width="480" height="480" rx="60" fill="#8ecae6" class="outline thick"/>
+    <!-- hanging chains -->
+    <path d="M 240 60 L 130 150 M 240 60 L 350 150" fill="none" class="outline mid"/>
+    <circle cx="240" cy="58" r="14" fill="#fff6e0" class="outline mid"/>
+    <!-- wooden sign board -->
+    <g>
+      <rect x="90" y="150" width="300" height="180" rx="22" fill="#c98a4b" class="outline thick"/>
+      <rect x="110" y="170" width="260" height="140" rx="14" fill="#e8b06e" class="outline mid"/>
+      <!-- wood grain -->
+      <path d="M 125 200 q 30 -8 60 0 M 300 285 q 28 8 55 0" fill="none" class="outline thin"/>
+      <!-- SHOP text -->
+      <g fill="#5a3218" stroke="#2b2340" stroke-width="3" stroke-linejoin="round">
+        <text x="240" y="262" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Segoe Print',cursive" font-size="88" font-weight="bold">Shop</text>
+      </g>
+    </g>
+    <!-- little bounce lines -->
+    <path d="M 78 160 l -20 -12 M 402 160 l 20 -12" fill="none" class="outline thin"/>
+  </g>
+
+  <!-- ============ CARD 3 : GLOBE (bottom-left) ============ -->
+  <g transform="translate(75,645)">
+    <rect x="0" y="0" width="480" height="480" rx="60" fill="#b8e0a0" class="outline thick"/>
+    <!-- planet -->
+    <circle cx="240" cy="240" r="150" fill="#4aa3df" class="outline thick"/>
+    <clipPath id="earthClip"><circle cx="240" cy="240" r="145"/></clipPath>
+    <g clip-path="url(#earthClip)">
+      <!-- North America -->
+      <path d="M 108 140 q 30 -28 72 -22 q 40 6 44 30 q 4 22 -20 26 q 6 16 -8 30 q -16 16 -34 6 q -6 22 -26 14 q -22 -10 -20 -30 q -24 -6 -26 -26 q -2 -18 18 -28 Z" fill="#79c96b" class="outline mid"/>
+      <!-- South America -->
+      <path d="M 180 268 q 22 -12 40 0 q 16 12 10 38 q -6 30 -24 44 q -16 12 -26 -4 q -10 -18 -8 -44 q 0 -24 8 -34 Z" fill="#79c96b" class="outline mid"/>
+      <!-- Europe/Africa peeking around the right edge -->
+      <path d="M 330 150 q 30 -12 52 4 l 14 130 q -20 22 -44 12 q -22 -10 -18 -36 q -18 -8 -14 -32 q 2 -18 14 -24 q -12 -14 -4 -28 q -4 -16 0 -26 Z" fill="#79c96b" class="outline mid"/>
+      <!-- ice cap -->
+      <path d="M 150 108 q 90 -40 180 0 l 10 -60 l -200 0 Z" fill="#fff6e0" class="outline mid"/>
+    </g>
+    <!-- dot eyes -->
+    <circle cx="208" cy="238" r="12" fill="#2b2340"/>
+    <circle cx="272" cy="238" r="12" fill="#2b2340"/>
+    <!-- shine -->
+    <path d="M 150 130 q 30 -32 72 -34" fill="none" stroke="#dff2ff" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+    <!-- sparkles -->
+    <path d="M 388 120 l 0 -30 M 388 105 l -15 0 l 30 0 M 92 400 l 0 -22 M 92 389 l -11 0 l 22 0" fill="none" class="outline thin"/>
+  </g>
+
+  <!-- ============ CARD 4 : SWORD & PENCIL (bottom-right) ============ -->
+  <g transform="translate(645,645)">
+    <rect x="0" y="0" width="480" height="480" rx="60" fill="#f4a9c4" class="outline thick"/>
+
+    <!-- SWORD 1 (bottom-left to top-right) -->
+    <g transform="translate(240,240) rotate(-45)">
+      <!-- blade -->
+      <path d="M -60 -18 L 140 -18 L 175 0 L 140 18 L -60 18 Z" fill="#d7e3ea" class="outline thick"/>
+      <path d="M -55 0 L 150 0" fill="none" class="outline thin"/>
+      <!-- crossguard -->
+      <rect x="-84" y="-52" width="26" height="104" rx="12" fill="#ffb703" class="outline mid"/>
+      <!-- grip -->
+      <rect x="-140" y="-16" width="56" height="32" rx="10" fill="#8d5a2b" class="outline mid"/>
+      <!-- pommel -->
+      <circle cx="-152" cy="0" r="20" fill="#ffb703" class="outline mid"/>
+    </g>
+
+    <!-- SWORD 2 (blade to top-left, hilt bottom-right, crossing over) -->
+    <g transform="translate(240,240) rotate(-135)">
+      <!-- blade -->
+      <path d="M -60 -18 L 140 -18 L 175 0 L 140 18 L -60 18 Z" fill="#d7e3ea" class="outline thick"/>
+      <path d="M -55 0 L 150 0" fill="none" class="outline thin"/>
+      <!-- crossguard -->
+      <rect x="-84" y="-52" width="26" height="104" rx="12" fill="#ffb703" class="outline mid"/>
+      <!-- grip -->
+      <rect x="-140" y="-16" width="56" height="32" rx="10" fill="#8d5a2b" class="outline mid"/>
+      <!-- pommel -->
+      <circle cx="-152" cy="0" r="20" fill="#ffb703" class="outline mid"/>
+    </g>
+
+    <!-- clash spark -->
+    <g class="outline thin" fill="none">
+      <path d="M 240 150 l 0 -20 M 240 330 l 0 20 M 150 240 l -20 0 M 330 240 l 20 0"/>
+    </g>
+  </g>
+</svg>

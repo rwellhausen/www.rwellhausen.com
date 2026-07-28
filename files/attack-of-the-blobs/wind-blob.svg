@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <clipPath id="funnelClip">
+      <path d="M 55 70 L 465 70 L 260 560 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- triangular funnel: flat top, point at the bottom -->
+  <path d="M 55 70 L 465 70 L 260 560 Z" fill="#5fb2e6" class="outline thick"/>
+
+  <!-- clouds inside the funnel -->
+  <g clip-path="url(#funnelClip)">
+    <g fill="#ffffff" class="outline mid">
+      <path d="M 120 130 q 8 -26 36 -24 q 10 -20 34 -14 q 22 5 24 24 q 22 2 20 22 q -2 18 -24 18 l -74 0 q -20 -2 -16 -26 Z"/>
+      <path d="M 305 105 q 10 -22 34 -18 q 12 -16 32 -10 q 18 6 18 22 q 18 4 15 20 q -3 16 -22 16 l -62 0 q -18 -4 -15 -30 Z"/>
+      <path d="M 185 240 q 8 -20 30 -17 q 10 -15 29 -10 q 17 5 18 20 q 16 3 14 18 q -2 15 -20 15 l -55 0 q -18 -3 -16 -26 Z"/>
+      <path d="M 280 330 q 7 -18 26 -15 q 9 -13 25 -8 q 14 4 15 17 q 14 3 12 16 q -2 13 -18 13 l -46 0 q -16 -3 -14 -23 Z"/>
+      <path d="M 215 425 q 6 -15 22 -13 q 8 -11 21 -7 q 12 4 13 14 q 12 3 10 14 q -2 11 -15 11 l -38 0 q -14 -2 -13 -19 Z"/>
+    </g>
+    <!-- soft wind streaks -->
+    <g fill="none" stroke="#bfe2f7" stroke-width="9" stroke-linecap="round" opacity="0.85">
+      <path d="M 95 180 q 60 20 130 14"/>
+      <path d="M 350 210 q -50 16 -105 8"/>
+      <path d="M 205 380 q 45 12 90 4"/>
+      <path d="M 240 480 q 15 8 28 4"/>
+    </g>
+  </g>
+
+  <!-- dot eyes -->
+  <circle cx="215" cy="175" r="13" fill="#2b2340"/>
+  <circle cx="285" cy="175" r="13" fill="#2b2340"/>
+
+  <!-- motion lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 30 100 q 20 -14 44 -12"/>
+    <path d="M 488 160 q -16 16 -38 18"/>
+    <path d="M 110 330 q 14 12 34 12"/>
+    <path d="M 360 470 q 18 -4 28 -18"/>
+  </g>
+</svg>
