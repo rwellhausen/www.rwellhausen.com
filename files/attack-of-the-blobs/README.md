@@ -16,12 +16,12 @@ inventing the missing forms.
 | Family (A–Z) | Baby | Middle | Final |
 |--------------|------|--------|-------|
 | Cloth | Pattern Blob (round, covered in patterns) | red dish cloth | red curtains on a rod |
-| Copper | oxidized copper ball | *not invented yet* | *not invented yet* |
+| Copper | oxidized copper ball | washer with a few strands of copper wire hair | copper pipe with lots of wire hair |
 | Dark | shadow circle | dark star | crescent moon |
 | Earth | brown circle | brick | brick pyramid |
 | Fire | ember circle | flame | erupting volcano |
 | Firework | *not invented yet* | striped rocket with lit fuse | teal-and-orange sparkler burst |
-| Gem | *not invented yet* | *not invented yet* | blue crystal (approved, do not change) |
+| Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
 | Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
 | Heart | *not invented yet* | *not invented yet* | touching trio with emotions: happy, mad, sad |
 | Water | droplet circle | big sloshy blob | curling wave |
