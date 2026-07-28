@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- curtain rod -->
+  <rect x="55" y="110" width="410" height="20" rx="10" fill="#6b6b7a" class="outline mid"/>
+  <circle cx="48" cy="120" r="16" fill="#6b6b7a" class="outline mid"/>
+  <circle cx="472" cy="120" r="16" fill="#6b6b7a" class="outline mid"/>
+
+  <!-- left curtain panel -->
+  <path d="M 95 130 L 245 130 L 240 470 q -20 18 -40 2 q -20 16 -40 0 q -20 16 -38 -2 q -18 16 -32 0 Z" fill="#e63946" class="outline thick"/>
+  <path d="M 130 150 q -6 140 4 290 M 175 150 q 6 140 -2 295 M 215 150 q -6 145 4 295" fill="none" stroke="#c1273a" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- right curtain panel -->
+  <path d="M 275 130 L 425 130 L 430 470 q -14 16 -32 0 q -18 18 -38 2 q -20 16 -40 0 q -20 16 -40 -2 Z" fill="#e63946" class="outline thick"/>
+  <path d="M 305 150 q -4 145 4 295 M 345 150 q 6 140 -2 295 M 390 150 q -6 140 4 290" fill="none" stroke="#c1273a" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- curtain rings -->
+  <g fill="none" class="outline thin">
+    <path d="M 115 130 a 9 9 0 1 0 0.1 0 M 170 130 a 9 9 0 1 0 0.1 0 M 225 130 a 9 9 0 1 0 0.1 0 M 295 130 a 9 9 0 1 0 0.1 0 M 350 130 a 9 9 0 1 0 0.1 0 M 405 130 a 9 9 0 1 0 0.1 0"/>
+  </g>
+
+  <!-- one eye on each panel: together they make the face -->
+  <circle cx="215" cy="290" r="13" fill="#2b2340"/>
+  <circle cx="305" cy="290" r="13" fill="#2b2340"/>
+
+  <!-- soft shine -->
+  <path d="M 118 175 q 20 -18 48 -20" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 298 175 q 20 -18 48 -20" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- sway lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 60 300 q -12 10 -14 26"/>
+    <path d="M 462 300 q 12 10 14 26"/>
+  </g>
+</svg>

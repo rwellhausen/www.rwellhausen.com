@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <clipPath id="rocketClip"><rect x="185" y="150" width="150" height="285" rx="24"/></clipPath>
+  </defs>
+
+  <!-- fuse with spark -->
+  <path d="M 260 155 q 5 -45 55 -60" fill="none" stroke="#6b6b7a" stroke-width="12" stroke-linecap="round"/>
+  <g stroke="#f4913b" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M 330 85 l 22 -14 M 336 100 l 26 2 M 322 74 l 6 -26 M 344 116 l 20 14"/>
+  </g>
+  <circle cx="322" cy="92" r="11" fill="#f4913b" class="outline thin"/>
+
+  <!-- rocket body: gold with teal diagonal stripes -->
+  <rect x="185" y="150" width="150" height="285" rx="24" fill="#ffd166" class="outline thick"/>
+  <g clip-path="url(#rocketClip)" stroke="#3fb8af" stroke-width="22" fill="none">
+    <path d="M 160 220 L 360 160 M 160 290 L 360 230 M 160 360 L 360 300 M 160 430 L 360 370 M 160 500 L 360 440"/>
+  </g>
+  <rect x="185" y="150" width="150" height="285" rx="24" fill="none" class="outline thick"/>
+
+  <!-- dot eyes on the body -->
+  <circle cx="230" cy="375" r="13" fill="#2b2340"/>
+  <circle cx="290" cy="375" r="13" fill="#2b2340"/>
+
+  <!-- teal fins -->
+  <path d="M 195 435 L 150 545 L 232 470 Z" fill="#3fb8af" class="outline mid"/>
+  <path d="M 325 435 L 370 545 L 288 470 Z" fill="#3fb8af" class="outline mid"/>
+  <path d="M 238 440 L 260 555 L 282 440 Z" fill="#3fb8af" class="outline mid"/>
+
+  <!-- anticipation ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 110 200 q 14 -12 34 -12"/>
+    <path d="M 430 260 q -12 12 -30 14"/>
+    <path d="M 95 430 q -12 10 -14 26"/>
+  </g>
+</svg>

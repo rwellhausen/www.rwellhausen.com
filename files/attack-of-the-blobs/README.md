@@ -6,48 +6,37 @@ William's original pencil/crayon sketches (kept in `sketches/`).
 SVGs are the editable masters (plain hex fills, named groups). PNGs are
 rendered at working size; character PNGs have transparent backgrounds.
 
-## The five element blobs
+## The blob families
 
-Each element blob has three forms — baby → middle → final — and all three
-share the element's color.
+Every blob in the universe has three forms — baby → middle → final — and all
+three share the family's colors. Going backward through the forms is called
+"devolving". Files are named `<family>-blob-<form>.svg/.png`. William is
+inventing the missing forms.
 
-| Element | Baby | Middle | Final form |
-|---------|----------------|------------------|------------|
-| Earth | `earth-blob-baby` (brown circle) | `earth-blob-middle` (brick) | `earth-blob-final` (brick pyramid) |
-| Wind | `wind-blob-baby` (blue circle) | `wind-blob-middle` (small funnel) | `wind-blob-final` (cloud tornado) |
-| Water | `water-blob-baby` (droplet circle) | `water-blob-middle` (big sloshy blob) | `water-blob-final` (curling wave) |
-| Fire | `fire-blob-baby` (ember circle) | `fire-blob-middle` (flame) | `fire-blob-final` (erupting volcano) |
-| Dark | `dark-blob-baby` (shadow circle) | `dark-blob-middle` (dark star) | `dark-blob-final` (crescent moon) |
-
-Two more evolving lines (going backward through the forms is called
-"devolving"):
-
-| Line | Baby | Middle | Final form |
-|------|----------------|------------------|------------|
-| Gold | `gold-blob-baby` (round gold blob) | `gold-blob-middle` (gold bar) | `gold-blob-final` (crowned Gold King — lower bars strain to hold him up) |
-| Cloth | `cloth-blob-baby` (Pattern Blob — round blob covered in patterns) | `cloth-blob-middle` (dish cloth) | not invented yet |
-
-## More blob families
-
-Every blob in the universe has three forms — baby, middle, final. William
-is inventing the missing forms for these series:
-
-| Line | Baby | Middle | Final |
-|------|------|--------|-------|
-| Copper | `copper-blob-baby` (oxidized copper ball) | not invented yet | not invented yet |
-| Gem | not invented yet | not invented yet | `gem-blob-final` (blue crystal — approved, do not change) |
-| Firework | not invented yet | not invented yet | `firework-blob-final` (teal-and-orange bursting sparkler) |
-| Heart | not invented yet | not invented yet | `heart-blobs-final` (touching trio: happy, mad, sad) |
+| Family (A–Z) | Baby | Middle | Final |
+|--------------|------|--------|-------|
+| Cloth | Pattern Blob (round, covered in patterns) | red dish cloth | red curtains on a rod |
+| Copper | oxidized copper ball | *not invented yet* | *not invented yet* |
+| Dark | shadow circle | dark star | crescent moon |
+| Earth | brown circle | brick | brick pyramid |
+| Fire | ember circle | flame | erupting volcano |
+| Firework | *not invented yet* | striped rocket with lit fuse | teal-and-orange sparkler burst |
+| Gem | *not invented yet* | *not invented yet* | blue crystal (approved, do not change) |
+| Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
+| Heart | *not invented yet* | *not invented yet* | touching trio with emotions: happy, mad, sad |
+| Water | droplet circle | big sloshy blob | curling wave |
+| Wind | blue circle | small funnel | cloud tornado |
 
 ## Menu icons
 
 | File | What it is |
 |------|------------|
-| `cartoon-icons.svg` / `.png` | 2×2 sheet: red book, Shop sign, Earth with dot eyes, crossed swords |
+| `cartoon-icons.svg` / `.png` | 2×2 sheet: red book, Shop sign, Earth with dot eyes, crossed swords — the game's icon, shown at the top of the character gallery |
 
 ## Style rules
 
 - Thick dark outlines (`#2b2340`), rounded joins
 - Bright flat fills, minimal shading (one shine stripe max)
 - Blobs get two dot eyes only — no mouths, no cheeks
-  - Exception: Heart Blobs have full faces with emotions (happy, mad, sad)
+  - Exceptions: Heart Blobs have full faces with emotions, and the Gold
+    King's stack has a grinning king plus straining lower bars
