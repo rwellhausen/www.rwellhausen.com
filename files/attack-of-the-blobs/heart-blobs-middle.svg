@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- one big heart -->
+  <g transform="translate(260,290) scale(2.6)">
+    <path d="M 0 55 C -60 5 -78 -45 -42 -68 C -18 -82 0 -62 0 -45 C 0 -62 18 -82 42 -68 C 78 -45 60 5 0 55 Z" fill="#e26fa0" class="outline thick" stroke-width="4"/>
+    <path d="M -38 -50 q 12 -14 28 -12" fill="none" stroke="#f3a6c8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- dot eyes -->
+  <circle cx="225" cy="245" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="245" r="13" fill="#2b2340"/>
+
+  <!-- floating sparkles -->
+  <g fill="none" class="outline thin">
+    <path d="M 85 150 l 0 -26 M 85 137 l -13 0 l 26 0"/>
+    <path d="M 445 190 l 0 -24 M 445 178 l -12 0 l 24 0"/>
+    <path d="M 260 545 l 0 -22 M 260 534 l -11 0 l 22 0"/>
+  </g>
+</svg>

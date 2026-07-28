@@ -23,7 +23,7 @@ inventing the missing forms.
 | Firework | matchstick with a red head | striped rocket with lit fuse | teal-and-orange sparkler burst |
 | Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
 | Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
-| Heart | *not invented yet* | *not invented yet* | touching trio with emotions: happy, mad, sad |
+| Heart | round pink blob | single pink heart | touching trio with emotions: happy, mad, sad |
 | Water | droplet circle | big sloshy blob | curling wave |
 | Wind | blue circle | small funnel | cloud tornado |
 
