@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- flame body -->
+  <path d="M 258 90 q 20 55 62 92 q 55 48 68 110 q 14 72 -38 128 q -50 52 -112 50 q -62 -2 -108 -56 q -44 -52 -30 -122 q 12 -58 62 -102 q 48 -42 60 -68 q 10 -20 14 -46 q 12 4 22 14 Z" fill="#e63946" class="outline thick"/>
+
+  <!-- inner flame -->
+  <path d="M 262 260 q 10 32 38 54 q 34 28 30 68 q -4 44 -42 60 q -36 14 -66 -10 q -32 -26 -26 -68 q 5 -34 32 -58 q 24 -22 34 -46 Z" fill="#ffb703" class="outline mid"/>
+
+  <!-- shine -->
+  <path d="M 150 250 q 12 -34 44 -56" fill="none" stroke="#ff7b86" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- dot eyes -->
+  <circle cx="215" cy="300" r="13" fill="#2b2340"/>
+  <circle cx="300" cy="300" r="13" fill="#2b2340"/>
+
+  <!-- heat ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 105 170 q 8 -14 4 -30"/>
+    <path d="M 420 180 q -8 -14 -4 -30"/>
+    <path d="M 460 350 q 12 10 14 26"/>
+  </g>
+</svg>

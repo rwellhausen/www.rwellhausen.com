@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- big sloshy water blob, lumpier and bigger than the baby -->
+  <path d="M 255 105 q 75 -12 120 40 q 45 50 55 115 q 10 70 -35 125 q -48 58 -130 60 q -85 2 -135 -55 q -48 -55 -38 -128 q 8 -60 48 -105 q 45 -50 115 -52 Z" fill="#2f6db5" class="outline thick"/>
+
+  <!-- sloshing waterline inside -->
+  <path d="M 135 330 q 40 -22 80 0 q 40 22 80 0 q 40 -22 80 0" fill="none" stroke="#6fa3dd" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- shine + drip -->
+  <path d="M 165 185 q 28 -34 72 -40" fill="none" stroke="#6fa3dd" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 420 170 q -6 22 8 34 q 15 -8 6 -30 q -4 -10 -14 -4 Z" fill="#6fa3dd" class="outline thin"/>
+
+  <!-- dot eyes -->
+  <circle cx="225" cy="265" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="265" r="13" fill="#2b2340"/>
+
+  <!-- splash ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 75 190 q -10 12 -8 28"/>
+    <path d="M 455 380 q 10 12 8 28"/>
+  </g>
+</svg>

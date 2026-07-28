@@ -30,3 +30,16 @@ transparent backgrounds.
 - Bright flat fills, minimal shading (one shine stripe max)
 - Blobs get two dot eyes only — no mouths, no cheeks
   - Exception: Heart Blobs have full faces with emotions (happy, mad, sad)
+
+## Evolutions
+
+Each element line has three stages: baby (round blob) → middle form → adult.
+All stages share the element's color.
+
+| Element | Stage 1 (baby) | Stage 2 (middle) | Adult |
+|---------|----------------|------------------|-------|
+| Earth | `earth-blob-stage1` (brown circle) | `earth-blob-stage2` (brick) | `earth-blob` (pyramid) |
+| Wind | `wind-blob-stage1` (blue circle) | `wind-blob-stage2` (small funnel) | `wind-blob` (tornado) |
+| Water | `water-blob-stage1` (droplet circle) | `water-blob-stage2` (big sloshy blob) | TBC |
+| Fire | `fire-blob-stage1` (ember circle) | `fire-blob-stage2` (flame) | TBC |
+| Dark | `dark-blob-stage1` (shadow circle) | `dark-blob-stage2` (dark star) | `moon-blob` |

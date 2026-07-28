@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- single brick -->
+  <rect x="85" y="200" width="350" height="200" rx="16" fill="#c98a4b" class="outline thick"/>
+  <!-- mortar notches like the pyramid blocks -->
+  <path d="M 85 300 l 40 0 M 435 300 l -40 0" fill="none" class="outline mid"/>
+
+  <!-- speckles -->
+  <g fill="#e8b06e" stroke="none">
+    <circle cx="150" cy="245" r="7"/><circle cx="370" cy="250" r="6"/><circle cx="185" cy="360" r="6"/>
+    <circle cx="340" cy="355" r="7"/><circle cx="260" cy="230" r="5"/>
+  </g>
+
+  <!-- dot eyes -->
+  <circle cx="225" cy="295" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="295" r="13" fill="#2b2340"/>
+
+  <!-- rumble lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 60 160 q 14 -12 34 -12"/>
+    <path d="M 460 430 q -12 12 -30 14"/>
+  </g>
+</svg>
