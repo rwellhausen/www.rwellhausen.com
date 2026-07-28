@@ -8,26 +8,26 @@
     </style>
   </defs>
 
-  <!-- wooden matchstick -->
-  <path d="M 232 230 L 288 230 L 282 520 L 238 520 Z" fill="#e8b06e" class="outline thick"/>
-  <path d="M 252 260 l -4 230" fill="none" stroke="#c98a4b" stroke-width="8" stroke-linecap="round"/>
+  <!-- short wooden stick -->
+  <path d="M 236 400 L 284 400 L 280 545 L 240 545 Z" fill="#e8b06e" class="outline thick"/>
+  <path d="M 256 425 l -2 95" fill="none" stroke="#c98a4b" stroke-width="8" stroke-linecap="round"/>
 
-  <!-- red match head -->
-  <path d="M 260 90 q 62 0 66 70 q 3 55 -38 74 q -28 12 -56 0 q -41 -19 -38 -74 q 4 -70 66 -70 Z" fill="#e63946" class="outline thick"/>
+  <!-- big round blobby match head (same wobbly blob as the other babies) -->
+  <path d="M 260 118 q 118 -14 148 96 q 26 96 -56 150 q -94 58 -178 4 q -80 -54 -54 -148 q 26 -96 140 -102 Z" fill="#e63946" class="outline thick"/>
+
   <!-- burnt smudge on top -->
-  <path d="M 226 105 q 18 -22 46 -14 q 20 6 24 26 q -26 14 -50 6 q -16 -6 -20 -18 Z" fill="#5a3040" class="outline mid"/>
+  <path d="M 208 138 q 24 -26 58 -18 q 26 6 30 30 q -32 18 -62 8 q -20 -6 -26 -20 Z" fill="#5a3040" class="outline mid"/>
+
   <!-- shine -->
-  <path d="M 208 160 q 4 -26 22 -40" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 168 188 q 26 -34 68 -42" fill="none" stroke="#ff7b86" stroke-width="12" stroke-linecap="round"/>
 
-  <!-- dot eyes on the head -->
-  <circle cx="235" cy="180" r="13" fill="#2b2340"/>
-  <circle cx="290" cy="180" r="13" fill="#2b2340"/>
+  <!-- dot eyes -->
+  <circle cx="225" cy="260" r="13" fill="#2b2340"/>
+  <circle cx="295" cy="260" r="13" fill="#2b2340"/>
 
-  <!-- tiny heat shimmer ticks -->
+  <!-- bounce lines -->
   <g fill="none" class="outline thin">
-    <path d="M 150 90 q 8 -14 4 -28"/>
-    <path d="M 372 100 q -8 -14 -4 -28"/>
-    <path d="M 120 300 q -12 10 -14 26"/>
-    <path d="M 400 320 q 12 10 14 26"/>
+    <path d="M 92 160 q 14 -14 34 -16"/>
+    <path d="M 430 370 q -12 14 -30 18"/>
   </g>
 </svg>
