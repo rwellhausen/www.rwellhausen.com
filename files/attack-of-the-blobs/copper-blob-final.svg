@@ -8,43 +8,42 @@
     </style>
   </defs>
 
-  <!-- pipe shaft -->
-  <rect x="205" y="135" width="110" height="290" fill="#c1703d" class="outline thick"/>
-  <!-- shaft shading + oxidation -->
-  <path d="M 222 160 q -4 120 2 240" fill="none" stroke="#e8a877" stroke-width="10" stroke-linecap="round"/>
-  <path d="M 300 250 q 14 -8 22 4 q 8 12 -4 22 q -14 10 -24 -2 q -8 -12 6 -24 Z" fill="#4fae9b" class="outline mid"/>
-
-  <!-- top flange -->
-  <rect x="150" y="90" width="220" height="48" rx="8" fill="#c1703d" class="outline thick"/>
-  <circle cx="175" cy="114" r="7" fill="#2b2340"/>
-  <circle cx="345" cy="114" r="7" fill="#2b2340"/>
-
-  <!-- bottom flange with the face -->
-  <rect x="140" y="420" width="240" height="58" rx="8" fill="#c1703d" class="outline thick"/>
-  <circle cx="228" cy="449" r="13" fill="#2b2340"/>
-  <circle cx="292" cy="449" r="13" fill="#2b2340"/>
-
-  <!-- LOTS of copper wire hair below -->
+  <!-- LOTS of copper wire hair on top of its head -->
   <g fill="none" stroke="#c1703d" stroke-width="9" stroke-linecap="round">
-    <path d="M 160 480 q -16 26 2 46 q 14 16 4 34"/>
-    <path d="M 190 480 q 12 28 -6 48 q -12 14 -2 32"/>
-    <path d="M 220 480 q -12 30 6 50 q 12 14 2 30"/>
-    <path d="M 250 480 q 10 32 -8 52 q -10 12 -2 28"/>
-    <path d="M 280 480 q -10 30 8 50 q 12 14 4 30"/>
-    <path d="M 310 480 q 12 28 -6 48 q -10 14 0 32"/>
-    <path d="M 340 480 q -14 26 4 46 q 14 16 6 34"/>
-    <path d="M 362 480 q 14 24 0 44 q -10 16 2 34"/>
+    <path d="M 165 128 q -16 -26 2 -46 q 14 -16 4 -34"/>
+    <path d="M 195 128 q 12 -28 -6 -48 q -12 -14 -2 -32"/>
+    <path d="M 225 128 q -12 -30 6 -50 q 12 -14 2 -30"/>
+    <path d="M 255 128 q 10 -32 -8 -52 q -10 -12 -2 -28"/>
+    <path d="M 285 128 q -10 -30 8 -50 q 12 -14 4 -30"/>
+    <path d="M 315 128 q 12 -28 -6 -48 q -10 -14 0 -32"/>
+    <path d="M 345 128 q -14 -26 4 -46 q 14 -16 6 -34"/>
+    <path d="M 362 128 q 14 -24 0 -44 q -10 -16 2 -34"/>
   </g>
   <g fill="none" stroke="#8f4f2a" stroke-width="7" stroke-linecap="round">
-    <path d="M 205 482 q -8 24 4 40"/>
-    <path d="M 265 482 q 8 26 -4 42"/>
-    <path d="M 325 482 q -8 24 4 40"/>
+    <path d="M 210 126 q -8 -24 4 -40"/>
+    <path d="M 270 126 q 8 -26 -4 -42"/>
+    <path d="M 330 126 q -8 -24 4 -40"/>
   </g>
+
+  <!-- top flange with the face -->
+  <rect x="140" y="128" width="240" height="58" rx="8" fill="#c1703d" class="outline thick"/>
+  <circle cx="228" cy="157" r="13" fill="#2b2340"/>
+  <circle cx="292" cy="157" r="13" fill="#2b2340"/>
+
+  <!-- pipe shaft -->
+  <rect x="205" y="186" width="110" height="270" fill="#c1703d" class="outline thick"/>
+  <path d="M 222 210 q -4 110 2 220" fill="none" stroke="#e8a877" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 300 300 q 14 -8 22 4 q 8 12 -4 22 q -14 10 -24 -2 q -8 -12 6 -24 Z" fill="#4fae9b" class="outline mid"/>
+
+  <!-- bottom flange -->
+  <rect x="150" y="456" width="220" height="48" rx="8" fill="#c1703d" class="outline thick"/>
+  <circle cx="175" cy="480" r="7" fill="#2b2340"/>
+  <circle cx="345" cy="480" r="7" fill="#2b2340"/>
 
   <!-- glint ticks -->
   <g fill="none" class="outline thin">
-    <path d="M 105 150 l 0 -26 M 105 137 l -13 0 l 26 0"/>
-    <path d="M 430 200 q -12 12 -30 14"/>
-    <path d="M 95 380 q -12 10 -14 26"/>
+    <path d="M 100 200 l 0 -26 M 100 187 l -13 0 l 26 0"/>
+    <path d="M 430 250 q -12 12 -30 14"/>
+    <path d="M 95 420 q -12 10 -14 26"/>
   </g>
 </svg>

@@ -10,31 +10,31 @@
 
   <!-- a few strands of copper wire hair on top -->
   <g fill="none" stroke="#c1703d" stroke-width="9" stroke-linecap="round">
-    <path d="M 215 135 q -12 -30 8 -52 q 16 -18 6 -38"/>
-    <path d="M 260 125 q 2 -34 -14 -52 q -12 -16 -4 -34"/>
-    <path d="M 300 138 q 16 -26 4 -52 q -8 -20 6 -36"/>
+    <path d="M 215 140 q -12 -30 8 -52 q 16 -18 6 -38"/>
+    <path d="M 260 130 q 2 -34 -14 -52 q -12 -16 -4 -34"/>
+    <path d="M 300 143 q 16 -26 4 -52 q -8 -20 6 -36"/>
   </g>
 
   <!-- washer: ring with a hole -->
-  <path d="M 260 130 a 150 150 0 1 0 0.1 0 Z M 260 225 a 55 55 0 1 1 -0.1 0 Z" fill="#c1703d" fill-rule="evenodd" class="outline thick"/>
-  <circle cx="260" cy="280" r="55" fill="none" class="outline thick"/>
+  <path d="M 260 135 a 150 150 0 1 0 0.1 0 Z M 260 235 a 55 55 0 1 1 -0.1 0 Z" fill="#c1703d" fill-rule="evenodd" class="outline thick"/>
+  <circle cx="260" cy="290" r="55" fill="none" class="outline thick"/>
+
+  <!-- dot eyes on the upper rim -->
+  <circle cx="226" cy="192" r="13" fill="#2b2340"/>
+  <circle cx="294" cy="192" r="13" fill="#2b2340"/>
 
   <!-- oxidized patch + speckles -->
-  <path d="M 150 350 q 16 -12 36 -4 q 18 8 10 28 q -8 18 -30 12 q -22 -6 -22 -22 q 0 -8 6 -14 Z" fill="#4fae9b" class="outline mid"/>
+  <path d="M 150 360 q 16 -12 36 -4 q 18 8 10 28 q -8 18 -30 12 q -22 -6 -22 -22 q 0 -8 6 -14 Z" fill="#4fae9b" class="outline mid"/>
   <g fill="#d98d5f" stroke="none">
-    <circle cx="350" cy="220" r="7"/><circle cx="185" cy="215" r="6"/><circle cx="335" cy="370" r="7"/>
+    <circle cx="350" cy="230" r="7"/><circle cx="175" cy="260" r="6"/><circle cx="335" cy="380" r="7"/>
   </g>
 
   <!-- shine -->
-  <path d="M 170 190 q 24 -28 62 -34" fill="none" stroke="#e8a877" stroke-width="11" stroke-linecap="round"/>
-
-  <!-- dot eyes on the lower rim -->
-  <circle cx="228" cy="392" r="13" fill="#2b2340"/>
-  <circle cx="292" cy="392" r="13" fill="#2b2340"/>
+  <path d="M 160 230 q 14 -34 44 -52" fill="none" stroke="#e8a877" stroke-width="11" stroke-linecap="round"/>
 
   <!-- glint ticks -->
   <g fill="none" class="outline thin">
-    <path d="M 90 160 l 0 -26 M 90 147 l -13 0 l 26 0"/>
-    <path d="M 445 400 q 12 10 14 26"/>
+    <path d="M 90 170 l 0 -26 M 90 157 l -13 0 l 26 0"/>
+    <path d="M 445 410 q 12 10 14 26"/>
   </g>
 </svg>

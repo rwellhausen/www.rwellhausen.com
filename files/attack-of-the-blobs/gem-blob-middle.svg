@@ -8,29 +8,27 @@
     </style>
   </defs>
 
-  <!-- tall pointed diamond -->
-  <path d="M 260 80 L 385 430 L 135 430 Z" fill="#5c7fd6" class="outline thick"/>
-  <!-- facet lines from the tip -->
-  <path d="M 260 80 L 195 430 M 260 80 L 325 430" fill="none" class="outline mid"/>
-  <!-- light and dark facets -->
-  <path d="M 260 80 L 325 430 L 195 430 Z" fill="#89a8ea" stroke="none" opacity="0.5"/>
-  <path d="M 260 80 L 135 430 L 195 430 Z" fill="#3f5cb0" stroke="none" opacity="0.4"/>
-
-  <!-- faceted base band -->
-  <path d="M 135 430 L 385 430 L 375 495 L 145 495 Z" fill="#5c7fd6" class="outline thick"/>
-  <path d="M 175 430 L 195 495 M 240 430 L 250 495 M 305 430 L 295 495 M 355 430 L 340 495" fill="none" class="outline mid"/>
+  <!-- classic cut diamond: flat top, point at the bottom -->
+  <path d="M 170 110 L 350 110 L 385 185 L 260 505 L 135 185 Z" fill="#5c7fd6" class="outline thick"/>
+  <!-- crown facets -->
+  <path d="M 135 185 L 385 185 M 170 110 L 200 185 M 350 110 L 320 185 M 260 110 L 260 185" fill="none" class="outline mid"/>
+  <!-- pavilion facets down to the point -->
+  <path d="M 200 185 L 260 505 M 320 185 L 260 505" fill="none" class="outline mid"/>
+  <!-- light and dark tints -->
+  <path d="M 200 185 L 320 185 L 260 505 Z" fill="#89a8ea" stroke="none" opacity="0.5"/>
+  <path d="M 135 185 L 200 185 L 260 505 Z" fill="#3f5cb0" stroke="none" opacity="0.4"/>
 
   <!-- shine -->
-  <path d="M 232 150 q 10 -34 26 -50" fill="none" stroke="#dff2ff" stroke-width="11" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 195 145 q 20 -18 52 -20" fill="none" stroke="#dff2ff" stroke-width="11" stroke-linecap="round" opacity="0.9"/>
 
   <!-- dot eyes -->
-  <circle cx="228" cy="330" r="13" fill="#2b2340"/>
-  <circle cx="292" cy="330" r="13" fill="#2b2340"/>
+  <circle cx="228" cy="255" r="13" fill="#2b2340"/>
+  <circle cx="292" cy="255" r="13" fill="#2b2340"/>
 
   <!-- sparkle ticks -->
   <g fill="none" class="outline thin">
-    <path d="M 100 160 l 0 -28 M 100 146 l -14 0 l 28 0"/>
-    <path d="M 430 250 l 0 -24 M 430 238 l -12 0 l 24 0"/>
-    <path d="M 425 520 q -14 12 -32 14"/>
+    <path d="M 100 130 l 0 -28 M 100 116 l -14 0 l 28 0"/>
+    <path d="M 435 240 l 0 -24 M 435 228 l -12 0 l 24 0"/>
+    <path d="M 380 460 q -14 12 -32 14"/>
   </g>
 </svg>
