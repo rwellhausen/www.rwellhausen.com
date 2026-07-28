@@ -19,11 +19,13 @@ share the element's color.
 | Fire | `fire-blob-stage1` (ember circle) | `fire-blob-stage2` (flame) | `fire-blob` (erupting volcano) |
 | Dark | `dark-blob-stage1` (shadow circle) | `dark-blob-stage2` (dark star) | `dark-blob` (crescent moon) |
 
-Gold Blob also evolves, but only has two stages so far:
+Two more evolving lines (going backward through the forms is called
+"devolving"):
 
-| Element | Baby (stage 1) | Middle (stage 2) | Final form |
-|---------|----------------|------------------|------------|
-| Gold | `gold-blob-stage1` (round gold blob) | `gold-blob-stage2` (gold bar) | not invented yet |
+| Line | Baby (stage 1) | Middle (stage 2) | Final form |
+|------|----------------|------------------|------------|
+| Gold | `gold-blob-stage1` (round gold blob) | `gold-blob-stage2` (gold bar) | `gold-blob` (crowned Gold King, stack of ingots) |
+| Cloth | `cloth-blob-stage1` (Pattern Blob — round blob covered in patterns) | `cloth-blob-stage2` (dish cloth) | not invented yet |
 
 ## Other blobs in the universe
 
@@ -31,7 +33,6 @@ Gold Blob also evolves, but only has two stages so far:
 |------|------------|
 | `firework-blob.svg` / `.png` | Firework Blob — teal-and-orange bursting sparkler |
 | `gem-blob.svg` / `.png` | Gem Blob — blue faceted crystal (approved, do not change) |
-| `cloth-blob.svg` / `.png` | Cloth Blob — red dish cloth with dark hem |
 | `copper-blob.svg` / `.png` | Copper Blob — copper ball with oxidized green-blue patches |
 | `heart-blobs.svg` / `.png` | Heart Blobs — touching trio with emotions: happy, mad, sad |
 
