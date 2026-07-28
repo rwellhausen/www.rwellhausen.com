@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- diagonal beam of light -->
+  <g transform="translate(260,300) rotate(35)">
+    <path d="M -70 -230 L 70 -230 L 52 235 L -52 235 Z" fill="#ffe94d" class="outline thick"/>
+    <!-- inner glow stripe -->
+    <path d="M -18 -195 L 6 -195 L 0 200 L -14 200 Z" fill="#fff6b0" stroke="none"/>
+    <!-- dot eyes -->
+    <circle cx="-26" cy="-60" r="13" fill="#2b2340"/>
+    <circle cx="30" cy="-60" r="13" fill="#2b2340"/>
+  </g>
+
+  <!-- glow ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 95 110 l 0 -28 M 95 96 l -14 0 l 28 0"/>
+    <path d="M 440 200 l 0 -24 M 440 188 l -12 0 l 24 0"/>
+    <path d="M 100 460 q -12 10 -14 26"/>
+    <path d="M 430 480 l 0 -24 M 430 468 l -12 0 l 24 0"/>
+  </g>
+</svg>

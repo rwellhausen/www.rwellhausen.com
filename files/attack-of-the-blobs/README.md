@@ -16,6 +16,7 @@ inventing the missing forms.
 | Family (A–Z) | Baby | Middle | Final |
 |--------------|------|--------|-------|
 | Cloth | Pattern Blob (round, covered in patterns) | red dish cloth | red curtains on a rod |
+| Coal | coal pebble | big sparkly coal lump | *not invented yet* |
 | Copper | oxidized copper ball | washer with a few strands of copper wire hair | copper pipe with lots of wire hair |
 | Dark | shadow circle | dark star | crescent moon |
 | Earth | brown circle | brick | brick pyramid |
@@ -24,6 +25,7 @@ inventing the missing forms.
 | Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
 | Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
 | Heart | round pink blob | single pink heart | touching trio with emotions: happy, mad, sad |
+| Light | round yellow blob | beam of light | dark lamp shining three beams |
 | Water | droplet circle | big sloshy blob | curling wave |
 | Wind | blue circle | small funnel | cloud tornado |
 
