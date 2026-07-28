@@ -27,14 +27,17 @@ Two more evolving lines (going backward through the forms is called
 | Gold | `gold-blob-baby` (round gold blob) | `gold-blob-middle` (gold bar) | `gold-blob-final` (crowned Gold King — lower bars strain to hold him up) |
 | Cloth | `cloth-blob-baby` (Pattern Blob — round blob covered in patterns) | `cloth-blob-middle` (dish cloth) | not invented yet |
 
-## Other blobs in the universe
+## More blob families
 
-| File | What it is |
-|------|------------|
-| `firework-blob.svg` / `.png` | Firework Blob — teal-and-orange bursting sparkler |
-| `gem-blob.svg` / `.png` | Gem Blob — blue faceted crystal (approved, do not change) |
-| `copper-blob.svg` / `.png` | Copper Blob — copper ball with oxidized green-blue patches |
-| `heart-blobs.svg` / `.png` | Heart Blobs — touching trio with emotions: happy, mad, sad |
+Every blob in the universe has three forms — baby, middle, final. William
+is inventing the missing forms for these series:
+
+| Line | Baby | Middle | Final |
+|------|------|--------|-------|
+| Copper | `copper-blob-baby` (oxidized copper ball) | not invented yet | not invented yet |
+| Gem | not invented yet | not invented yet | `gem-blob-final` (blue crystal — approved, do not change) |
+| Firework | not invented yet | not invented yet | `firework-blob-final` (teal-and-orange bursting sparkler) |
+| Heart | not invented yet | not invented yet | `heart-blobs-final` (touching trio: happy, mad, sad) |
 
 ## Menu icons
 
