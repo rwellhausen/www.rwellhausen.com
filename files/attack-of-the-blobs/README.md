@@ -20,7 +20,7 @@ inventing the missing forms.
 | Dark | shadow circle | dark star | crescent moon |
 | Earth | brown circle | brick | brick pyramid |
 | Fire | ember circle | flame | erupting volcano |
-| Firework | *not invented yet* | striped rocket with lit fuse | teal-and-orange sparkler burst |
+| Firework | matchstick with a red head | striped rocket with lit fuse | teal-and-orange sparkler burst |
 | Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
 | Gold | round gold blob | gold bar (approved, do not change) | Gold King — crowned stack; lower bars strain to hold him up |
 | Heart | *not invented yet* | *not invented yet* | touching trio with emotions: happy, mad, sad |

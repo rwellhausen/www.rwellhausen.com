@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- wooden matchstick -->
+  <path d="M 232 230 L 288 230 L 282 520 L 238 520 Z" fill="#e8b06e" class="outline thick"/>
+  <path d="M 252 260 l -4 230" fill="none" stroke="#c98a4b" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- red match head -->
+  <path d="M 260 90 q 62 0 66 70 q 3 55 -38 74 q -28 12 -56 0 q -41 -19 -38 -74 q 4 -70 66 -70 Z" fill="#e63946" class="outline thick"/>
+  <!-- burnt smudge on top -->
+  <path d="M 226 105 q 18 -22 46 -14 q 20 6 24 26 q -26 14 -50 6 q -16 -6 -20 -18 Z" fill="#5a3040" class="outline mid"/>
+  <!-- shine -->
+  <path d="M 208 160 q 4 -26 22 -40" fill="none" stroke="#ff7b86" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- dot eyes on the head -->
+  <circle cx="235" cy="180" r="13" fill="#2b2340"/>
+  <circle cx="290" cy="180" r="13" fill="#2b2340"/>
+
+  <!-- tiny heat shimmer ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 150 90 q 8 -14 4 -28"/>
+    <path d="M 372 100 q -8 -14 -4 -28"/>
+    <path d="M 120 300 q -12 10 -14 26"/>
+    <path d="M 400 320 q 12 10 14 26"/>
+  </g>
+</svg>
