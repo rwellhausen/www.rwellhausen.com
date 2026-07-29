@@ -8,14 +8,14 @@
     </style>
   </defs>
 
-  <!-- wooden wand handle -->
-  <g transform="translate(225,250) rotate(35)">
-    <rect x="70" y="-22" width="200" height="44" rx="20" fill="#d1935a" class="outline thick"/>
-    <path d="M 105 -6 q 60 -10 130 0" fill="none" stroke="#e8b98a" stroke-width="9" stroke-linecap="round"/>
+  <!-- wooden wand handle, straight down from the star's bottom -->
+  <g transform="translate(260,230)">
+    <rect x="-22" y="40" width="44" height="270" rx="20" fill="#d1935a" class="outline thick"/>
+    <path d="M -6 130 q 8 70 0 150" fill="none" stroke="#e8b98a" stroke-width="9" stroke-linecap="round"/>
   </g>
 
-  <!-- magenta star head -->
-  <g transform="translate(225,250)">
+  <!-- magenta star head, overlapping the handle so they connect -->
+  <g transform="translate(260,230)">
     <path d="M 0 -140 L 34 -47 L 133 -43 L 55 18 L 82 113 L 0 58 L -82 113 L -55 18 L -133 -43 L -34 -47 Z" fill="#d9558f" class="outline thick"/>
     <path d="M -52 -68 q 20 -22 50 -24" fill="none" stroke="#eb8ab5" stroke-width="10" stroke-linecap="round"/>
     <!-- dot eyes -->
