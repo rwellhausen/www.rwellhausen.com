@@ -71,3 +71,9 @@ How the game is supposed to work — next steps:
 - The full element matchup chart
 - What the levels look like inside a world (like Hills)
 - How you collect more blobs and how they evolve during the game
+
+## Worlds
+
+| File | World |
+|------|-------|
+| `hills-world.svg` / `.png` | Hills — three round green hills with sunny yellow edges (first world) |
