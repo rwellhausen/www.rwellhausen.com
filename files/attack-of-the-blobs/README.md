@@ -16,7 +16,7 @@ inventing the missing forms.
 | Family (A–Z) | Baby | Middle | Final |
 |--------------|------|--------|-------|
 | Cloth | Pattern Blob (round, covered in patterns) | red dish cloth | red curtains on a rod |
-| Coal | coal pebble | big sparkly coal lump | *not invented yet* |
+| Coal | coal pebble | big sparkly coal lump | burning furnace |
 | Copper | oxidized copper ball | washer with a few strands of copper wire hair | copper pipe with lots of wire hair |
 | Dark | shadow circle | dark star | crescent moon |
 | Earth | brown circle | brick | brick pyramid |

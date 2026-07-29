@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <clipPath id="grateClip"><rect x="170" y="305" width="180" height="125" rx="16"/></clipPath>
+  </defs>
+
+  <!-- smoke puffs -->
+  <g fill="#6a6a78" class="outline mid">
+    <circle cx="322" cy="72" r="26"/>
+    <circle cx="352" cy="52" r="18"/>
+    <circle cx="298" cy="48" r="14"/>
+  </g>
+
+  <!-- chimney pipe -->
+  <rect x="300" y="95" width="46" height="105" fill="#3d3d4a" class="outline thick"/>
+
+  <!-- furnace body -->
+  <rect x="120" y="190" width="280" height="285" rx="28" fill="#3d3d4a" class="outline thick"/>
+
+  <!-- little legs -->
+  <rect x="150" y="472" width="44" height="42" rx="8" fill="#3d3d4a" class="outline mid"/>
+  <rect x="326" y="472" width="44" height="42" rx="8" fill="#3d3d4a" class="outline mid"/>
+
+  <!-- glowing grate with fire bars -->
+  <rect x="170" y="305" width="180" height="125" rx="16" fill="#2b2340" class="outline mid"/>
+  <g clip-path="url(#grateClip)">
+    <path d="M 195 430 L 195 340 q 8 -18 16 0 L 211 430 Z" fill="#e63946"/>
+    <path d="M 235 430 L 235 325 q 9 -20 18 0 L 253 430 Z" fill="#ffb703"/>
+    <path d="M 277 430 L 277 335 q 9 -20 18 0 L 295 430 Z" fill="#e63946"/>
+    <path d="M 318 430 L 318 345 q 8 -16 16 0 L 334 430 Z" fill="#ffb703"/>
+  </g>
+  <rect x="170" y="305" width="180" height="125" rx="16" fill="none" class="outline mid"/>
+
+  <!-- rivets -->
+  <g fill="#6a6a78" stroke="none">
+    <circle cx="150" cy="220" r="6"/><circle cx="370" cy="220" r="6"/>
+    <circle cx="150" cy="445" r="6"/><circle cx="370" cy="445" r="6"/>
+  </g>
+
+  <!-- pale dot eyes -->
+  <circle cx="228" cy="255" r="13" fill="#fff6e0"/>
+  <circle cx="292" cy="255" r="13" fill="#fff6e0"/>
+
+  <!-- heat shimmer ticks -->
+  <g fill="none" class="outline thin">
+    <path d="M 80 300 q 8 -14 4 -30"/>
+    <path d="M 448 320 q -8 -14 -4 -30"/>
+    <path d="M 95 520 q 14 8 32 6"/>
+  </g>
+</svg>
