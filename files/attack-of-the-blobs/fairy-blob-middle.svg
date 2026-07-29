@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+  </defs>
+
+  <!-- wooden wand handle -->
+  <g transform="translate(225,250) rotate(35)">
+    <rect x="70" y="-22" width="200" height="44" rx="20" fill="#d1935a" class="outline thick"/>
+    <path d="M 105 -6 q 60 -10 130 0" fill="none" stroke="#e8b98a" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- magenta star head -->
+  <g transform="translate(225,250)">
+    <path d="M 0 -140 L 34 -47 L 133 -43 L 55 18 L 82 113 L 0 58 L -82 113 L -55 18 L -133 -43 L -34 -47 Z" fill="#d9558f" class="outline thick"/>
+    <path d="M -52 -68 q 20 -22 50 -24" fill="none" stroke="#eb8ab5" stroke-width="10" stroke-linecap="round"/>
+    <!-- dot eyes -->
+    <circle cx="-24" cy="-10" r="12" fill="#2b2340"/>
+    <circle cx="26" cy="-10" r="12" fill="#2b2340"/>
+  </g>
+
+  <!-- magic sparkles -->
+  <g fill="none" class="outline thin">
+    <path d="M 90 120 l 0 -28 M 90 106 l -14 0 l 28 0"/>
+    <path d="M 440 180 l 0 -24 M 440 168 l -12 0 l 24 0"/>
+    <path d="M 120 430 l 0 -24 M 120 418 l -12 0 l 24 0"/>
+    <path d="M 425 480 l 0 -26 M 425 467 l -13 0 l 26 0"/>
+  </g>
+  <g fill="#eb8ab5" stroke="none">
+    <circle cx="160" cy="90" r="7"/><circle cx="380" cy="120" r="6"/><circle cx="90" cy="330" r="6"/>
+  </g>
+</svg>

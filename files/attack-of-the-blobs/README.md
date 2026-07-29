@@ -21,6 +21,7 @@ inventing the missing forms.
 | Copper | oxidized copper ball | washer with a few strands of copper wire hair | copper pipe with lots of wire hair |
 | Dark | shadow circle | dark star | crescent moon |
 | Earth | brown circle | brick | brick pyramid |
+| Fairy | round magenta blob | star wand with a wooden handle | *not invented yet* |
 | Fire | ember circle | flame | erupting volcano |
 | Firework | matchstick with a red head | striped rocket with lit fuse | teal-and-orange sparkler burst |
 | Gem | round blue blob | pointed faceted diamond | blue crystal (approved, do not change) |
