@@ -44,3 +44,30 @@ inventing the missing forms.
 - Blobs get two dot eyes only — no mouths, no cheeks
   - Exceptions: Heart Blobs have full faces with emotions, and the Gold
     King's stack has a grinning king plus straining lower bars
+
+## Game design notes (from William, July 28, 2026)
+
+How the game is supposed to work — next steps:
+
+### Worlds
+- Clicking the **world icon** (the Earth square in the game icon) opens an
+  image of **different worlds** to choose from.
+- One of the worlds is **Hills**. (More worlds to be invented.)
+- Clicking a world starts a **battle against other blobs** there.
+
+### Battles
+- You always **start with one blob**, and you use it to battle other blobs.
+- **Higher forms beat lower forms**: e.g., a *middle* Water Blob beats a
+  *baby* Fire Blob, because it's a whole form ahead.
+- **Same form vs same form** comes down to element matchups,
+  rock-paper-scissors style:
+  - **Water beats Fire** (water puts out fire)
+  - **Fire beats Wind** (William's ruling)
+  - **Wind beats … something** — matchup chart still being invented
+- More matchups for the other families (Earth, Dark, Light, Cloud, Coal,
+  Copper, Gold, Gem, Cloth, Heart, Firework, Fairy) to be decided.
+
+### Still to design
+- The full element matchup chart
+- What the levels look like inside a world (like Hills)
+- How you collect more blobs and how they evolve during the game
