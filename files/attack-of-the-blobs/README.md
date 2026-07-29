@@ -16,7 +16,7 @@ inventing the missing forms.
 | Family (A–Z) | Baby | Middle | Final |
 |--------------|------|--------|-------|
 | Cloth | Pattern Blob (round, covered in patterns) | red dish cloth | red curtains on a rod |
-| Cloud | puffy white cloud ball (designed by Claude, approved pending William) | *not invented yet* | *not invented yet* |
+| Cloud | puffy white cloud ball | big puffy cloud | three big puffy clouds together |
 | Coal | coal pebble | big sparkly coal lump | burning furnace |
 | Copper | oxidized copper ball | washer with a few strands of copper wire hair | copper pipe with lots of wire hair |
 | Dark | shadow circle | dark star | crescent moon |

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" width="520" height="600">
+  <defs>
+    <style>
+      .outline { stroke:#2b2340; stroke-linejoin:round; stroke-linecap:round; }
+      .thick { stroke-width:10; }
+      .mid { stroke-width:7; }
+      .thin { stroke-width:5; }
+    </style>
+    <path id="puff" d="M -105 55 q -40 -8 -36 -44 q 4 -34 40 -36 q 2 -36 40 -42 q 30 -5 48 16 q 14 -26 48 -22 q 34 4 40 34 q 36 -2 46 30 q 10 34 -22 50 q 12 26 -18 34 q -22 6 -38 -4 l -110 0 q -24 8 -38 -16 Z"/>
+  </defs>
+
+  <!-- three big puffy clouds all together -->
+  <use href="#puff" transform="translate(148,385) scale(1.0)" fill="#ffffff" class="outline mid"/>
+  <use href="#puff" transform="translate(372,385) scale(1.0)" fill="#ffffff" class="outline mid"/>
+  <use href="#puff" transform="translate(260,235) scale(1.1)" fill="#ffffff" class="outline mid"/>
+
+  <!-- shines -->
+  <path d="M 178 172 q 20 -22 52 -26" fill="none" stroke="#dfe8f2" stroke-width="11" stroke-linecap="round"/>
+  <path d="M 72 340 q 18 -20 46 -24" fill="none" stroke="#dfe8f2" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- dot eyes only, no emotions -->
+  <circle cx="230" cy="230" r="13" fill="#2b2340"/>
+  <circle cx="292" cy="230" r="13" fill="#2b2340"/>
+  <circle cx="120" cy="380" r="12" fill="#2b2340"/>
+  <circle cx="178" cy="380" r="12" fill="#2b2340"/>
+  <circle cx="344" cy="380" r="12" fill="#2b2340"/>
+  <circle cx="402" cy="380" r="12" fill="#2b2340"/>
+
+  <!-- float lines -->
+  <g fill="none" class="outline thin">
+    <path d="M 68 180 q 14 -14 34 -16"/>
+    <path d="M 452 200 q -12 14 -30 18"/>
+    <path d="M 250 500 q 16 8 34 4"/>
+  </g>
+</svg>
