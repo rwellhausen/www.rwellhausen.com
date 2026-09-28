@@ -294,3 +294,14 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
   left: 10px;
   top: 10px;
 }
+
+/* Readable type sizes: body 16px, nav 15px on wide screens, secondary text 14px, buttons 13px */
+body { font-size: 16px; }
+#wsite-content .paragraph, #wsite-content li, .blog-sidebar .paragraph { font-size: 16px; line-height: 1.6; }
+#wsite-content font[size="2"] { font-size: 1em; }
+@media (min-width: 1024px) { #navigation ul li a, #navigation ul li#active a, #navigation a.wsite-menu-item { font-size: 15px; } }
+html body .pubwrap { font-size: 16px; line-height: 1.6; }
+html body .pubwrap .pubpill { font-size: 13px; }
+html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap a.pubinline { font-size: 14px; }
+html body .reqbox { font-size: 14px; }
+html body .reqbox button { font-size: 13px; }
