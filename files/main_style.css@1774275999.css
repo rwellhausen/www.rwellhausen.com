@@ -302,6 +302,6 @@ body { font-size: 16px; }
 @media (min-width: 1024px) { #navigation ul li a, #navigation ul li#active a, #navigation a.wsite-menu-item { font-size: 15px; } }
 html body .pubwrap { font-size: 16px; line-height: 1.6; }
 html body .pubwrap .pubpill { font-size: 13px; }
-html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap a.pubinline { font-size: 14px; }
+html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap .pubintro, html body .pubwrap a.pubinline { font-size: 14px; }
 html body .reqbox { font-size: 14px; }
 html body .reqbox button { font-size: 13px; }
