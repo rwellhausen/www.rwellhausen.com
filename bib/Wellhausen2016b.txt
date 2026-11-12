@@ -3,7 +3,7 @@
   title     = {Withdrawing from Investment Treaties but Protecting Investment},
   journal   = {Global Policy},
   year      = {2016},
-  month     = jul,
+  month     = nov,
   volume    = {7},
   number    = {4},
   pages     = {571--576},

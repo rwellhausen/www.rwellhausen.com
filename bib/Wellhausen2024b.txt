@@ -3,7 +3,7 @@
   title     = {Stakeholder Cues, National Origin, and Public Opinion Towards Firms: Evidence in the Context of the First Bank in an American Indian Nation},
   journal   = {Business and Politics},
   year      = {2024},
-  month     = feb,
+  month     = mar,
   volume    = {26},
   number    = {1},
   pages     = {1--26},

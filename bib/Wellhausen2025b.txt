@@ -2,7 +2,7 @@
   author    = {Wellhausen, Rachel L. and Peinhardt, Clint},
   title     = {Adjudicating while Fighting: Political Implications of the Ukraine-Russia Bilateral Investment Treaty},
   journal   = {Perspectives on Politics},
-  year      = {2025},
+  year      = {2026},
   month     = mar,
   volume    = {24},
   number    = {1},

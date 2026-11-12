@@ -3,7 +3,7 @@
   title     = {The Political Economy of US Territories and Indian Country},
   journal   = {Political Science and Politics},
   year      = {2017},
-  month     = mar,
+  month     = apr,
   volume    = {50},
   number    = {2},
   pages     = {510--514},

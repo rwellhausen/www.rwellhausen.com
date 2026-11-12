@@ -4,6 +4,7 @@
   journal   = {British Journal of Political Science},
   year      = {2025},
   volume    = {55},
+  pages     = {e160},
   publisher = {Cambridge University Press (CUP)},
   issn      = {1469-2112},
   doi       = {10.1017/s000712342510104x},

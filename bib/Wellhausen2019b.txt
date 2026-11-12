@@ -3,7 +3,7 @@
   title     = {How Government Reactions to Violence Worsen Social Welfare: Evidence from Peru},
   journal   = {American Journal of Political Science},
   year      = {2019},
-  month     = jan,
+  month     = apr,
   volume    = {63},
   number    = {2},
   pages     = {353--367},

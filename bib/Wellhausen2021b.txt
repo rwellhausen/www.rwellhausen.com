@@ -3,7 +3,7 @@
   title     = {The price of doing business: Why replaceable foreign firms get worse government treatment},
   journal   = {Economics \& Politics},
   year      = {2021},
-  month     = jan,
+  month     = jul,
   volume    = {33},
   number    = {2},
   pages     = {209--243},

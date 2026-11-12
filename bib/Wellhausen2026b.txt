@@ -3,7 +3,7 @@
   title     = {The Green Virtues of Chinese Protectionism: A Comparative Analysis of EU and US Responses to the China Garbage Shock},
   journal   = {Interventions {\'e}conomiques},
   year      = {2026},
-  volume    = {75},
+  number    = {75},
   publisher = {OpenEdition},
   issn      = {1710-7377},
   doi       = {10.4000/15znc},

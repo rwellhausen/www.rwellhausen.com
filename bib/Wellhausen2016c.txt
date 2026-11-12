@@ -3,7 +3,7 @@
   title     = {Recent Trends in Investor--State Dispute Settlement},
   journal   = {Journal of International Dispute Settlement},
   year      = {2016},
-  month     = jan,
+  month     = mar,
   volume    = {7},
   number    = {1},
   pages     = {117--135},

@@ -3,7 +3,7 @@
   title     = {Aspects of the political economy of development and synthetic biology},
   journal   = {Systems and Synthetic Biology},
   year      = {2009},
-  month     = oct,
+  month     = dec,
   volume    = {3},
   number    = {1-4},
   pages     = {115--123},
