@@ -1,1 +1,14 @@
-@article{Wellhausen2019d, title={International Law, Territorial Disputes, and Foreign Direct Investment}, volume={63}, ISSN={1468-2478}, url={http://dx.doi.org/10.1093/isq/sqy046}, DOI={10.1093/isq/sqy046}, number={1}, journal={International Studies Quarterly}, publisher={Oxford University Press (OUP)}, author={Carter, David B and Wellhausen, Rachel L and Huth, Paul K}, year={2018}, month=Dec, pages={58–71} }
+@article{Wellhausen2019d,
+  author    = {Carter, David B. and Wellhausen, Rachel L. and Huth, Paul K.},
+  title     = {International Law, Territorial Disputes, and Foreign Direct Investment},
+  journal   = {International Studies Quarterly},
+  year      = {2018},
+  month     = dec,
+  volume    = {63},
+  number    = {1},
+  pages     = {58--71},
+  publisher = {Oxford University Press (OUP)},
+  issn      = {1468-2478},
+  doi       = {10.1093/isq/sqy046},
+  url       = {https://doi.org/10.1093/isq/sqy046}
+}

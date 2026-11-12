@@ -1,1 +1,14 @@
-@article{Wellhausen2015b, title={Investor–State Disputes: When Can Governments Break Contracts?}, volume={59}, ISSN={1552-8766}, url={http://dx.doi.org/10.1177/0022002713503299}, DOI={10.1177/0022002713503299}, number={2}, journal={Journal of Conflict Resolution}, publisher={SAGE Publications}, author={Wellhausen, Rachel L.}, year={2013}, month=Sept, pages={239–261} }
+@article{Wellhausen2015b,
+  author    = {Wellhausen, Rachel L.},
+  title     = {Investor--State Disputes: When Can Governments Break Contracts?},
+  journal   = {Journal of Conflict Resolution},
+  year      = {2013},
+  month     = sep,
+  volume    = {59},
+  number    = {2},
+  pages     = {239--261},
+  publisher = {SAGE Publications},
+  issn      = {1552-8766},
+  doi       = {10.1177/0022002713503299},
+  url       = {https://doi.org/10.1177/0022002713503299}
+}

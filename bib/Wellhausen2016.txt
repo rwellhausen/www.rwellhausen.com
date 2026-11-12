@@ -1,1 +1,14 @@
-@article{Wellhausen2016, title={Under One Roof: Supply Chains and the Protection of Foreign Investment}, volume={110}, ISSN={1537-5943}, url={http://dx.doi.org/10.1017/s000305541500057x}, DOI={10.1017/s000305541500057x}, number={1}, journal={American Political Science Review}, publisher={Cambridge University Press (CUP)}, author={JOHNS, LESLIE and WELLHAUSEN, RACHEL L.}, year={2016}, month=Feb, pages={31–51} }
+@article{Wellhausen2016,
+  author    = {Johns, Leslie and Wellhausen, Rachel L.},
+  title     = {Under One Roof: Supply Chains and the Protection of Foreign Investment},
+  journal   = {American Political Science Review},
+  year      = {2016},
+  month     = feb,
+  volume    = {110},
+  number    = {1},
+  pages     = {31--51},
+  publisher = {Cambridge University Press (CUP)},
+  issn      = {1537-5943},
+  doi       = {10.1017/s000305541500057x},
+  url       = {https://doi.org/10.1017/s000305541500057x}
+}

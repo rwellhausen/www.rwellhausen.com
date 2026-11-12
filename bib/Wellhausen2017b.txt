@@ -1,1 +1,14 @@
-@article{Wellhausen2017b, title={The Political Economy of US Territories and Indian Country}, volume={50}, ISSN={1537-5935}, url={http://dx.doi.org/10.1017/s1049096516003097}, DOI={10.1017/s1049096516003097}, number={2}, journal={Political Science and Politics}, publisher={Cambridge University Press (CUP)}, author={Wellhausen, Rachel L.}, year={2017}, month=Mar, pages={510–514} }
+@article{Wellhausen2017b,
+  author    = {Wellhausen, Rachel L.},
+  title     = {The Political Economy of US Territories and Indian Country},
+  journal   = {Political Science and Politics},
+  year      = {2017},
+  month     = mar,
+  volume    = {50},
+  number    = {2},
+  pages     = {510--514},
+  publisher = {Cambridge University Press (CUP)},
+  issn      = {1537-5935},
+  doi       = {10.1017/s1049096516003097},
+  url       = {https://doi.org/10.1017/s1049096516003097}
+}

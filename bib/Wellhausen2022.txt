@@ -1,1 +1,14 @@
-@article{Wellhausen2022, title={Political Risk and International Investment Law}, volume={25}, ISSN={1545-1577}, url={http://dx.doi.org/10.1146/annurev-polisci-051120-014429}, DOI={10.1146/annurev-polisci-051120-014429}, number={1}, journal={Annual Review of Political Science}, publisher={Annual Reviews}, author={Moehlecke, Carolina and Wellhausen, Rachel L.}, year={2022}, month=May, pages={485–507} }
+@article{Wellhausen2022,
+  author    = {Moehlecke, Carolina and Wellhausen, Rachel L.},
+  title     = {Political Risk and International Investment Law},
+  journal   = {Annual Review of Political Science},
+  year      = {2022},
+  month     = may,
+  volume    = {25},
+  number    = {1},
+  pages     = {485--507},
+  publisher = {Annual Reviews},
+  issn      = {1545-1577},
+  doi       = {10.1146/annurev-polisci-051120-014429},
+  url       = {https://doi.org/10.1146/annurev-polisci-051120-014429}
+}

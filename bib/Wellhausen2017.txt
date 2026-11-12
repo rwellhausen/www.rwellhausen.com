@@ -1,1 +1,14 @@
-@article{Wellhausen2017, title={Sovereignty, Law, and Finance: Evidence from American Indian Reservations}, volume={12}, ISSN={1554-0634}, url={http://dx.doi.org/10.1561/100.00016131}, DOI={10.1561/100.00016131}, number={4}, journal={Quarterly Journal of Political Science}, publisher={Emerald}, author={Wellhausen, Rachel L.}, year={2017}, month=Dec, pages={405–436} }
+@article{Wellhausen2017,
+  author    = {Wellhausen, Rachel L.},
+  title     = {Sovereignty, Law, and Finance: Evidence from American Indian Reservations},
+  journal   = {Quarterly Journal of Political Science},
+  year      = {2017},
+  month     = dec,
+  volume    = {12},
+  number    = {4},
+  pages     = {405--436},
+  publisher = {Emerald},
+  issn      = {1554-0634},
+  doi       = {10.1561/100.00016131},
+  url       = {https://doi.org/10.1561/100.00016131}
+}

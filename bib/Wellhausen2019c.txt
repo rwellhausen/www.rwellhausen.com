@@ -1,1 +1,14 @@
-@article{Wellhausen2019c, title={How a Retreat from Global Economic Governance May Empower Business Interests}, volume={81}, ISSN={1468-2508}, url={http://dx.doi.org/10.1086/702231}, DOI={10.1086/702231}, number={2}, journal={The Journal of Politics}, publisher={University of Chicago Press}, author={Johns, Leslie and Pelc, Krzysztof J. and Wellhausen, Rachel L.}, year={2019}, month=Apr, pages={731–738} }
+@article{Wellhausen2019c,
+  author    = {Johns, Leslie and Pelc, Krzysztof J. and Wellhausen, Rachel L.},
+  title     = {How a Retreat from Global Economic Governance May Empower Business Interests},
+  journal   = {The Journal of Politics},
+  year      = {2019},
+  month     = apr,
+  volume    = {81},
+  number    = {2},
+  pages     = {731--738},
+  publisher = {University of Chicago Press},
+  issn      = {1468-2508},
+  doi       = {10.1086/702231},
+  url       = {https://doi.org/10.1086/702231}
+}

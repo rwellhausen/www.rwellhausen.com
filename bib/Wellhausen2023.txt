@@ -1,1 +1,13 @@
-@article{Wellhausen2023, title={Global Value Chains as a Constraint on Sovereignty: Evidence from Investor–State Dispute Settlement}, volume={67}, ISSN={1468-2478}, url={http://dx.doi.org/10.1093/isq/sqad007}, DOI={10.1093/isq/sqad007}, number={1}, journal={International Studies Quarterly}, publisher={Oxford University Press (OUP)}, author={Moehlecke, Carolina and Thrall, Calvin and Wellhausen, Rachel L}, year={2022}, month=Dec }
+@article{Wellhausen2023,
+  author    = {Moehlecke, Carolina and Thrall, Calvin and Wellhausen, Rachel L.},
+  title     = {Global Value Chains as a Constraint on Sovereignty: Evidence from Investor--State Dispute Settlement},
+  journal   = {International Studies Quarterly},
+  year      = {2022},
+  month     = dec,
+  volume    = {67},
+  number    = {1},
+  publisher = {Oxford University Press (OUP)},
+  issn      = {1468-2478},
+  doi       = {10.1093/isq/sqad007},
+  url       = {https://doi.org/10.1093/isq/sqad007}
+}

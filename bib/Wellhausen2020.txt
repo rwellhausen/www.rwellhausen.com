@@ -1,1 +1,14 @@
-@article{Wellhausen2020, title={Judicial economy and moving bars in international investment arbitration}, volume={15}, ISSN={1559-744X}, url={http://dx.doi.org/10.1007/s11558-019-09364-y}, DOI={10.1007/s11558-019-09364-y}, number={4}, journal={The Review of International Organizations}, publisher={Springer Science and Business Media LLC}, author={Johns, Leslie and Thrall, Calvin and Wellhausen, Rachel L.}, year={2019}, month=July, pages={923–945} }
+@article{Wellhausen2020,
+  author    = {Johns, Leslie and Thrall, Calvin and Wellhausen, Rachel L.},
+  title     = {Judicial economy and moving bars in international investment arbitration},
+  journal   = {The Review of International Organizations},
+  year      = {2019},
+  month     = jul,
+  volume    = {15},
+  number    = {4},
+  pages     = {923--945},
+  publisher = {Springer Science and Business Media LLC},
+  issn      = {1559-744X},
+  doi       = {10.1007/s11558-019-09364-y},
+  url       = {https://doi.org/10.1007/s11558-019-09364-y}
+}
