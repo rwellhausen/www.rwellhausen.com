@@ -143,7 +143,7 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 /* Mobile responsiveness: this theme predates responsive design (fixed 960px
    layout, no breakpoints). The rules below only take effect on narrow screens
    and leave the desktop layout untouched. */
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 767px) {
   /* Stack the two-column tables (homepage photo+bio, teaching/advising layout)
      vertically instead of squeezing fixed-width columns together. */
   .wsite-multicol-table, .wsite-multicol-tbody, .wsite-multicol-tr, .wsite-multicol-col {
@@ -227,7 +227,10 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
      to push content off-screen; tighten the indent on small screens. */
   #main-wrap div.paragraph ul,
   #main-wrap div.paragraph ol {
-    padding-left: 1.5em !important;
+    padding-left: 0.3em !important;
+  }
+  #main-wrap .paragraph ul li {
+    padding-left: 18px !important;
   }
 
   /* Keep any inline image from forcing horizontal scroll. */
@@ -244,14 +247,14 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
   #wsite-content p,
   #wsite-content li,
   #wsite-content font[size="2"] {
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 1.6 !important;
   }
   #wsite-content font[size="1"] {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   #wsite-content font[size="3"] {
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
   /* Slightly larger nav labels for easier tapping/reading. */
   #navigation ul li a,
@@ -295,13 +298,49 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
   top: 10px;
 }
 
-/* Readable type sizes: body 16px, nav 15px on wide screens, secondary text 14px, buttons 13px */
-body { font-size: 16px; }
-#wsite-content .paragraph, #wsite-content li, .blog-sidebar .paragraph { font-size: 16px; line-height: 1.6; }
+/* Readable type sizes: body 15px, nav 14px on wide screens, secondary text 13px, buttons 12px */
+body { font-size: 15px; }
+#wsite-content .paragraph, #wsite-content li, .blog-sidebar .paragraph { font-size: 15px; line-height: 1.6; }
 #wsite-content font[size="2"] { font-size: 1em; }
-@media (min-width: 1024px) { #navigation ul li a, #navigation ul li#active a, #navigation a.wsite-menu-item { font-size: 15px; } }
-html body .pubwrap { font-size: 16px; line-height: 1.6; }
-html body .pubwrap .pubpill { font-size: 13px; }
-html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap .pubintro, html body .pubwrap a.pubinline { font-size: 14px; }
-html body .reqbox { font-size: 14px; }
-html body .reqbox button { font-size: 13px; }
+#wsite-content font[size="3"], #wsite-content font[size="4"] { font-size: 17px; }
+@media (min-width: 1024px) { #navigation ul li a, #navigation ul li#active a, #navigation a.wsite-menu-item { font-size: 14px; } }
+html body .pubwrap { font-size: 15px; line-height: 1.6; }
+html body .pubwrap .pubpill { font-size: 12px; }
+html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap .pubintro, html body .pubwrap a.pubinline { font-size: 13px; }
+html body .reqbox { font-size: 13px; }
+html body .reqbox button { font-size: 12px; }
+
+/* Phones: keep the six menu items to two centred rows. */
+@media screen and (max-width: 480px) {
+  #navigation ul li a,
+  #navigation ul li a:hover,
+  #navigation ul li#active a {
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+/* Tablets (768-1023px): the theme's fixed 960px layout has no side margins
+   once the screen is narrower than the page, so content ran flush against
+   both edges. Add margins, a gap between the home page's photo and bio
+   columns, and a slightly tighter menu so it clears the site title. */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  #wsite-title { padding-left: 0; }
+  #navigation li { margin-left: 2px; }
+  #navigation ul li a { font-size: 12px; padding-left: 5px; padding-right: 5px; }
+  #navigation ul li#active a,
+  #navigation ul li a:hover { padding-left: 5px; padding-right: 5px; }
+  .wsite-page-index #wsite-content .wsite-multicol-col:first-child {
+    width: 31% !important;
+    padding-right: 24px !important;
+  }
+  .wsite-page-index #wsite-content .wsite-multicol-col:first-child + .wsite-multicol-col {
+    width: 69% !important;
+  }
+}
