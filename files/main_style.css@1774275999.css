@@ -310,6 +310,16 @@ html body .pubwrap .pubmuted, html body .pubwrap .pubadv, html body .pubwrap .pu
 html body .reqbox { font-size: 13px; }
 html body .reqbox button { font-size: 12px; }
 
+/* Phones: make the small link buttons large enough to tap. */
+@media screen and (max-width: 767px) {
+  html body .pubwrap .pubpill {
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 22px;
+    margin: 8px 8px 0 0;
+  }
+}
+
 /* Phones: keep the six menu items to two centred rows. */
 @media screen and (max-width: 480px) {
   #navigation ul li a,
@@ -336,6 +346,8 @@ html body .reqbox button { font-size: 12px; }
   #navigation ul li a { font-size: 12px; padding-left: 5px; padding-right: 5px; }
   #navigation ul li#active a,
   #navigation ul li a:hover { padding-left: 5px; padding-right: 5px; }
+  /* Justified text in the narrower bio column leaves wide gaps between words. */
+  .wsite-page-index #wsite-content .paragraph { text-align: left !important; }
   .wsite-page-index #wsite-content .wsite-multicol-col:first-child {
     width: 31% !important;
     padding-right: 24px !important;
