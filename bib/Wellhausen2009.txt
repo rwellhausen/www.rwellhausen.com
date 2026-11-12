@@ -5,7 +5,7 @@
   year      = {2009},
   month     = dec,
   volume    = {3},
-  number    = {1-4},
+  number    = {1},
   pages     = {115--123},
   publisher = {Springer Science and Business Media LLC},
   issn      = {1872-5333},
