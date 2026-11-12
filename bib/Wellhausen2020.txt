@@ -1,6 +1,6 @@
 @article{Wellhausen2020,
   author    = {Johns, Leslie and Thrall, Calvin and Wellhausen, Rachel L.},
-  title     = {Judicial economy and moving bars in international investment arbitration},
+  title     = {Judicial Economy and Moving Bars in International Investment Arbitration},
   journal   = {The Review of International Organizations},
   year      = {2020},
   month     = oct,

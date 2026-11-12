@@ -1,5 +1,5 @@
 @article{Wellhausen2021d,
-  author    = {Feir, Donna and Wellhausen, Rachel L. and Thrall, Calvin},
+  author    = {Feir, Donn and Wellhausen, Rachel L. and Thrall, Calvin},
   title     = {Ownership and Trust in Banks: Evidence from the First Bank in an American Indian Nation},
   journal   = {AEA Papers and Proceedings},
   year      = {2021},

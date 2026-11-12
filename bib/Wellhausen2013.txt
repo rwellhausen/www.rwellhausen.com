@@ -1,6 +1,6 @@
 @article{Wellhausen2013,
   author    = {Wellhausen, Rachel L.},
-  title     = {Innovation in Tow: R\&D FDI and investment incentives},
+  title     = {Innovation in Tow: R\&D FDI and Investment Incentives},
   journal   = {Business and Politics},
   year      = {2013},
   month     = dec,

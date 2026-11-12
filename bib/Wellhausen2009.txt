@@ -1,6 +1,6 @@
 @article{Wellhausen2009,
   author    = {Wellhausen, Rachel and Mukunda, Gautam},
-  title     = {Aspects of the political economy of development and synthetic biology},
+  title     = {Aspects of the Political Economy of Development and Synthetic Biology},
   journal   = {Systems and Synthetic Biology},
   year      = {2009},
   month     = dec,

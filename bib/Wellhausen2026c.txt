@@ -1,0 +1,14 @@
+@article{Wellhausen2026c,
+  author    = {Wellhausen, Rachel L. and Peinhardt, Clint},
+  title     = {Adjudicating while Fighting: Political Implications of the Ukraine-Russia Bilateral Investment Treaty},
+  journal   = {Perspectives on Politics},
+  year      = {2026},
+  month     = mar,
+  volume    = {24},
+  number    = {1},
+  pages     = {91--103},
+  publisher = {Cambridge University Press (CUP)},
+  issn      = {1541-0986},
+  doi       = {10.1017/s1537592724002809},
+  url       = {https://doi.org/10.1017/s1537592724002809}
+}

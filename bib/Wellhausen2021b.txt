@@ -1,6 +1,6 @@
 @article{Wellhausen2021b,
   author    = {Johns, Leslie and Wellhausen, Rachel L.},
-  title     = {The price of doing business: Why replaceable foreign firms get worse government treatment},
+  title     = {The Price of Doing Business: Why Replaceable Foreign Firms Get Worse Government Treatment},
   journal   = {Economics \& Politics},
   year      = {2021},
   month     = jul,
